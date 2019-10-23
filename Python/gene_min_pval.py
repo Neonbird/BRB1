@@ -1,11 +1,19 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+# аргумент 1 в консоли - путь к файлу суммарных статистик file.tsv
+# аргумент 2 - путь к к файлу аннтотации annotation.db - его можно создать из файла аннотации *.gff с помощью
+# create_anot.db.py
 import gffutils
 import pandas
-#подгружаем аннотацию один!! раз, она одна для всех
+import sys
+
+#эта часть кода уже не актуальна, вынесена в create_anot.db.py
+#подгружаем аннотацию один!! раз
 # #anot_db = gffutils.create_db("/home/neobird/BI/BRB1/gencode.v19.annotation.gtf_withproteinids",
 #                            dbfn='anot.db', force=True, keep_order=True,
 #                           disable_infer_genes=True, disable_infer_transcripts=True)
 
-anot_db = gffutils.FeatureDB('anot.db', keep_order=True)
+anot_db = gffutils.FeatureDB(sys.argv[2], keep_order=True)
 
 genes = {'name':[], 'chr':[], 'start':[], 'end':[]}
 for gene in anot_db.features_of_type('gene'):
@@ -17,8 +25,8 @@ for gene in anot_db.features_of_type('gene'):
 df_genes = pandas.DataFrame.from_dict(genes)
 
 #считывание суммарных статитсик гвас, грубо говоря snp для определённого фенотипа в датафрейм
-df_snp = pandas.read_csv("/home/neobird/BI/BRB1/100001_irnt.gwas.imputed_v3.both_sexes.tsv",  sep='	',
-                         usecols=['variant', 'pval'])
+#работает с файлом в пути, указаном в консоли
+df_snp = pandas.read_csv(sys.argv[1],  sep='	', usecols=['variant', 'pval'])
 #разбить колонку variant на две
 df_snp[['chr','position_with_trash']] = df_snp['variant'].str.split(':', n = 1, expand =True)
 #создать колоку с позицией снипа на основе др колонки
@@ -85,7 +93,6 @@ for chr_type in ('1','2', '3', '4', '5', '6', '7', '8', '9', '10',
             end_of_gene = int(gene_row[3])
             if position_of_snp >= start_of_gene and position_of_snp <= end_of_gene:
                 dict_snp_genes[pval_of_snp] = name_of_gene
-
 dict_gene_minpval = {}
 for pval in dict_snp_genes.keys():
     gene_name = dict_snp_genes[pval]
@@ -93,8 +100,9 @@ for pval in dict_snp_genes.keys():
         dict_gene_minpval[gene_name] = pval
 
 
+
 import csv
-with open('gene_pval_100001_irnt.gwas.imputed_v3.both_sexes.csv', 'w') as csv_file:
+with open('gp.'+ sys.argv[1] + '.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
     for key, value in dict_gene_minpval.items():
        writer.writerow([key, value])
