@@ -24,11 +24,12 @@ for gene in anot_db.features_of_type('gene'):
         genes['start'].append(gene.start)
         genes['end'].append(gene.end)
 df_genes = pandas.DataFrame.from_dict(genes)
-df_genes[['start', 'end']] = df_genes[['start', 'end']].apply(pandas.to_numeric())
+df_genes[['start', 'end']] = df_genes[['start', 'end']].apply(pandas.to_numeric)
 
 # считывание суммарных статитсик гвас, грубо говоря snp для определённого фенотипа в датафрейм
 # работает с файлом в пути, указаном в консоли
-df_snp = pandas.read_csv(sys.argv[1], sep='\t', usecols=['variant', 'pval'], nrows=100)
+df_snp = pandas.read_csv(sys.argv[1], sep='\t', usecols=['variant', 'pval'], nrows=1000)
+# удалить все строки, которые содержат хоть где-то NaN
 df_snp.dropna()
 # разбить колонку variant на две
 df_snp[['chr', 'position_with_trash']] = df_snp['variant'].str.split(':', n=1, expand=True)
@@ -39,11 +40,11 @@ del df_snp['variant']
 del df_snp['position_with_trash']
 # поменять порядок колонок
 df_snp = df_snp[['chr', 'pval', 'position']]
-df_snp[['pval', 'position']] = df_snp[['pval', 'position']].apply(pandas.to_numeric())
+df_snp[['pval', 'position']] = df_snp[['pval', 'position']].apply(pandas.to_numeric)
 # print(df_snp)
 # print(df_genes)
 
-dict_snp_genes = {}
+dict_genes_minpval = {}
 for chr_type in ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
                  '11', '12', '13', '14', '15', '16', '17', '18',
                  '19', '20', '21', '22', 'M', 'X', 'Y'):
@@ -53,18 +54,21 @@ for chr_type in ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
     for snp_row in df_snp_chr.itertuples(index=False):
         pval_of_snp = snp_row[1]
         position_of_snp = snp_row[2]
+        pval_of_gene = 0
         for gene_row in df_genes_chr.itertuples(index=False):
             name_of_gene = gene_row[0]
             start_of_gene = gene_row[2]
             end_of_gene = gene_row[3]
             if start_of_gene <= position_of_snp <= end_of_gene:
-                dict_snp_genes[pval_of_snp] = name_of_gene
-dict_gene_minpval = {}
-for pval, gene_name in dict_snp_genes.items():
-    if gene_name not in dict_gene_minpval or pval < dict_gene_minpval[gene_name]:
-        dict_gene_minpval[gene_name] = pval
+                if name_of_gene not in dict_genes_minpval or dict_genes_minpval[name_of_gene] > pval_of_snp:
+                    dict_genes_minpval[name_of_gene] = pval_of_snp
 
-with open(f"gp.{sys.argv[1]}.csv", 'w') as csv_file:
+with open('gp.'+ sys.argv[1] + '.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
-    for key, value in dict_gene_minpval.items():
+    writer.writerow(['gene_name', 'min_pval'])
+    for key, value in dict_genes_minpval.items():
         writer.writerow([key, value])
+
+"""Output
+На выходе получается gp.имя_файла_исходных_статистик.csv без названия столбцов в папке, из которой запускался скрипт
+"""
