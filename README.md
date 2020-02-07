@@ -31,11 +31,11 @@ requires snp-gene annotation file in the script directory.
 Results of quantification for two phenotypes can be found in gene_scoring/enrichment_data/.
 
 # Network analysis
-### a brief description of the methods used:
+### the methods used:
 Hierarchical clustering, GSEA, SAFE-graphs visualisation
-### system requirements for the developed software: 
+### system requirements: 
 python 3.6, 16Gb RAM
-### instructions for launching the developed software:
+### instructions for launching:
 ```
 pip install matplotlib sklearn numpy pandas scipy networkx tqdm jupyter
 jupyter notebook network_analysis/Network_analysis.ipynb
