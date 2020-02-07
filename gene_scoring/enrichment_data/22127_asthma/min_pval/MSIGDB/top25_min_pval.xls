@@ -1,0 +1,43 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	5
+# genesets in collections:	22596
+# genes in comparison (n):	23
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	15	0.1974	3.55E-36	8.02E-32
+ICSBP_Q6	253	Genes having at least one occurence of the transcription factor binding site V$ICSBP_Q6 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	5	0.0198	3.81E-7	4.3E-3
+SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP	301	Genes up-regulated in nsopharyngeal carcinoma relative to the normal tissue.	5	0.0166	8.97E-7	6.75E-3
+GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	200	Genes up-regulated in spleen marginal zone B lymphocytes: wildtype versus IRF8 [GeneID=3394] knockout.	4	0.0200	6.06E-6	3.42E-2
+TGACAGNY_MEIS1_01	848	Genes having at least one occurence of the highly conserved motif M41 TGACAGNY sites. The motif matches transcription factor binding site V$MEIS1_01 (v7.4 TRANSFAC).	6	0.0071	8.78E-6	3.97E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	ICSBP_Q6	SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11	ICSBP_Q6	SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11	ICSBP_Q6		GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11	ICSBP_Q6			
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11		SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+114876	OSBPL1A	oxysterol binding protein like 1A [Source:HGNC Symbol;Acc:HGNC:16398]	chr18q11		SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP		
+5932	RBBP8	RB binding protein 8, endonuclease [Source:HGNC Symbol;Acc:HGNC:9891]	chr18q11		SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP		
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11				TGACAGNY_MEIS1_01
+80000	GREB1L	GREB1 like retinoic acid receptor coactivator [Source:HGNC Symbol;Acc:HGNC:31042]	chr18q11				TGACAGNY_MEIS1_01
+6093	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	chr18q11				
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11				
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11				
+171586	ABHD3	abhydrolase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18718]	chr18q11				
+57534	MIB1	mindbomb E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21086]	chr18q11				
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11				
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11				
+22797	TFEC	transcription factor EC [Source:HGNC Symbol;Acc:HGNC:11754]		ICSBP_Q6	SENGUPTA_NASOPHARYNGEAL_CARCINOMA_UP		
+10580	SORBS1	sorbin and SH3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14565]		ICSBP_Q6		GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+4330	MN1	MN1 proto-oncogene, transcriptional regulator [Source:HGNC Symbol;Acc:HGNC:7180]					TGACAGNY_MEIS1_01
+9124	PDLIM1	PDZ and LIM domain 1 [Source:HGNC Symbol;Acc:HGNC:2067]					TGACAGNY_MEIS1_01
+55125	CEP192	centrosomal protein 192 [Source:HGNC Symbol;Acc:HGNC:25515]					
+1413	CRYBA4	crystallin beta A4 [Source:HGNC Symbol;Acc:HGNC:2396]					
+142827	ACSM6	acyl-CoA synthetase medium chain family member 6 [Source:HGNC Symbol;Acc:HGNC:31665]					
+374860	ANKRD30B	ankyrin repeat domain 30B [Source:HGNC Symbol;Acc:HGNC:24165]					

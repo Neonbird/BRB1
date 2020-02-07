@@ -1,0 +1,36 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	2
+# genesets in collections:	22596
+# genes in comparison (n):	19
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	4	0.0345	3.07E-7	6.93E-3
+GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	193	Genes down-regulated in comparison of control conventional dendritic cells (cDC) at 1 h versus cDCs infected with Newcastle disease virus (NDV) at 1 h.	4	0.0207	2.34E-6	2.65E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24	GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24	GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24	
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24	
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24	
+56339	METTL3	methyltransferase like 3 [Source:HGNC Symbol;Acc:HGNC:17563]		GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN
+84932	RAB2B	RAB2B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:20246]		GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN
+389320	TEX43	testis expressed 43 [Source:HGNC Symbol;Acc:HGNC:33767]		GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN
+9878	TOX4	TOX high mobility group box family member 4 [Source:HGNC Symbol;Acc:HGNC:20161]		
+79144	PPDPF	pancreatic progenitor cell differentiation and proliferation factor [Source:HGNC Symbol;Acc:HGNC:16142]		
+4439	MSH5	mutS homolog 5 [Source:HGNC Symbol;Acc:HGNC:7328]		
+8993	PGLYRP1	peptidoglycan recognition protein 1 [Source:HGNC Symbol;Acc:HGNC:8904]		
+80237	ELL3	elongation factor for RNA polymerase II 3 [Source:HGNC Symbol;Acc:HGNC:23113]		
+353144	LCE3C	late cornified envelope 3C [Source:HGNC Symbol;Acc:HGNC:16612]		
+51808	PHAX	phosphorylated adaptor for RNA export [Source:HGNC Symbol;Acc:HGNC:10241]		
+84984	CEP19	centrosomal protein 19 [Source:HGNC Symbol;Acc:HGNC:28209]		
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]		
+219557	TEX47	testis expressed 47 [Source:HGNC Symbol;Acc:HGNC:22402]		
+83740	H2AFB3	H2A histone family member B3 [Source:HGNC Symbol;Acc:HGNC:14455]		
+642778	NPIPA3	nuclear pore complex interacting protein family member A3 [Source:HGNC Symbol;Acc:HGNC:41978]		

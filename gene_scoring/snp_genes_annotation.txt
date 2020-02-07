@@ -1,0 +1,77 @@
+# Here is a description of way to annotate closest genes for each SNP from UK Biobank GWAS v.3 variants.tsv file using GENECODE v19 annotation and closest-features utility v 2.4.37 from bedops tool-package ( http://bioinformatics.oxfordjournals.org/content/28/14/1919.abstract)
+# Some commands may be missing. There may be errors.
+
+	Convert GENECODE V19 annotation to .bed and select only protein-coding genes
+
+zcat gencode.v19.annotation.gtf.gz | gtf2bed | grep -w gene | grep protein_coding > genecodeGenes.bed
+
+	Table only with genes and their coordinates in genome
+
+paste <(cat genecodeGenes.bed | cut -f1-3) <(cat genecodeGenes.bed | grep -Po 'gene_name \K[^;]+' | perl -pe 's|\"||g') > genecode_genes_only.bed
+
+	Add "chr" to all numbers in chromosome column in variants.tsv file 
+
+cat variants.tsv | tail -n+2 | cut -f 2-3 | perl -pe 's/^/chr/' > chr_pos.tsv
+
+chr1	15791
+chr1	69487
+chr1	69569
+chr1	139853
+chr1	692794
+chr1	693731
+chr1	707522
+chr1	717587
+chr1	723329
+chr1	730087
+
+
+	Convert SNP to .bed format 
+
+paste -d "\t" <(cat chr_pos.tsv | awk '{FS="\t";OFS="\t"}{print $1,$2 -1}') <(cut -f 2 chr_pos.tsv) > chr_pos.bed
+
+chr1	15790	15791
+chr1	69486	69487
+chr1	69568	69569
+chr1	139852	139853
+chr1	692793	692794
+chr1	693730	693731
+chr1	707521	707522
+chr1	717586	717587
+chr1	723328	723329
+chr1	730086	730087
+
+	Sorting
+
+sort -k1,1 -k2,2n genecode_genes_only.bed > genecode_genes_sorted.bed
+sort -k1,1 -k2,2n chr_pos.bed > chr_pos_sorted.bed 
+
+	Make table with closest genes for each SNP and their distance with a bunch of extra info
+
+closest-features --closest --dist chr_pos_sorted.bed genecode_genes_sorted.bed > answer.bed
+
+chr1	15790	15791|chr1	69090	70008	ENSG00000186092.4	.	+	HAVANA	gene	.	gene_id "ENSG00000186092.4"; transcript_id "ENSG00000186092.4"; gene_type "protein_coding"; gene_status "KNOWN"; gene_name "OR4F5"; transcript_type "protein_coding"; transcript_status "KNOWN"; transcript_name "OR4F5"; level 2; havana_gene "OTTHUMG00000001094.1";|53300
+chr1	69486	69487|chr1	69090	70008	ENSG00000186092.4	.	+	HAVANA	gene	.	gene_id "ENSG00000186092.4"; transcript_id "ENSG00000186092.4"; gene_type "protein_coding"; gene_status "KNOWN"; gene_name "OR4F5"; transcript_type "protein_coding"; transcript_status "KNOWN"; transcript_name "OR4F5"; level 2; havana_gene "OTTHUMG00000001094.1";|0
+chr1	69568	69569|chr1	69090	70008	ENSG00000186092.4	.	+	HAVANA	gene	.	gene_id "ENSG00000186092.4"; transcript_id "ENSG00000186092.4"; gene_type "protein_coding"; gene_status "KNOWN"; gene_name "OR4F5"; transcript_type "protein_coding"; transcript_status "KNOWN"; transcript_name "OR4F5"; level 2; havana_gene "OTTHUMG00000001094.1";|0
+chr1	139852	139853|chr1	134900	139379	ENSG00000237683.5	.	-	ENSEMBL	gene	.	gene_id "ENSG00000237683.5"; transcript_id "ENSG00000237683.5"; gene_type "protein_coding"; gene_status "KNOWN"; gene_name "AL627309.1"; transcript_type "protein_coding"; transcript_status "KNOWN"; transcript_name "AL627309.1"; level 3;|-474
+chr1	692793	692794|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|45738
+chr1	693730	693731|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|44801
+chr1	707521	707522|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|31010
+chr1	717586	717587|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|20945
+chr1	723328	723329|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|15203
+chr1	730086	730087|chr1	738531	739137	ENSG00000269831.1	.	-	ENSEMBL	gene	.	gene_id "ENSG00000269831.1"; transcript_id "ENSG00000269831.1"; gene_type "protein_coding"; gene_status "NOVEL"; gene_name "AL669831.1"; transcript_type "protein_coding"; transcript_status "NOVEL"; transcript_name "AL669831.1"; level 3;|8445
+
+	Selecting only usefull info
+	
+ paste  <(zcat variants.tsv.bgz | tail -n+2 | cut -f 1) <( cat answer.bed | grep -Po '^\K[^|]+') <( cat answer.bed | cut -d '|' -f 2 | grep -Po 'gene_name \K[^;]+' | perl -pe 's |\"||g' ) <(cat answer.bed | grep -Po ';\|\K[^$]+') <(cat answer.bed | cut -f 4) > snp_genes.tsv
+
+1:15791:C:T	chr1	15790	15791	OR4F5	53300	69090
+1:69487:G:A	chr1	69486	69487	OR4F5	0	69090
+1:69569:T:C	chr1	69568	69569	OR4F5	0	69090
+1:139853:C:T	chr1	139852	139853	AL627309.1	-474	134900
+1:692794:CA:C	chr1	692793	692794	AL669831.1	45738	738531
+1:693731:A:G	chr1	693730	693731	AL669831.1	44801	738531
+1:707522:G:C	chr1	707521	707522	AL669831.1	31010	738531
+1:717587:G:A	chr1	717586	717587	AL669831.1	20945	738531
+1:723329:A:T	chr1	723328	723329	AL669831.1	15203	738531
+1:730087:T:C	chr1	730086	730087	AL669831.1	8445	738531
+

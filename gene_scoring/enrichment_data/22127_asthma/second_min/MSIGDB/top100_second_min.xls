@@ -1,0 +1,123 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	10
+# genesets in collections:	22596
+# genes in comparison (n):	98
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	21	0.2763	1.11E-37	2.5E-33
+chr18p11	185	ENSEMBL 97 Genes in Cytogenetic Band chr18p11	16	0.0865	3.37E-20	3.8E-16
+ICSBP_Q6	253	Genes having at least one occurence of the transcription factor binding site V$ICSBP_Q6 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	9	0.0356	2.07E-8	1.56E-4
+GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN	198	Genes down-regulated in comparison of B cells from influenza vaccinee at day 7 post-vaccination versus plasmacytoid dendritic cells (pDC) at day 7 post-vaccination.	7	0.0354	8.61E-7	4.86E-3
+chr17p13	314	ENSEMBL 97 Genes in Cytogenetic Band chr17p13	8	0.0255	1.62E-6	7.34E-3
+chr3q11	50	ENSEMBL 97 Genes in Cytogenetic Band chr3q11	4	0.0800	8.69E-6	3E-2
+GO_NEURON_DIFFERENTIATION	1348	The process in which a relatively unspecialized cell acquires specialized features of a neuron. [GOC:mah]	14	0.0104	9.3E-6	3E-2
+GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN	200	Genes down-regulated in CD8 T cells activated by anti-CD3 and anti-CD28 versus those stimulated by IFNA5 [GeneID=3442].	6	0.0300	1.38E-5	3.27E-2
+GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	200	Genes up-regulated in spleen marginal zone B lymphocytes: wildtype versus IRF8 [GeneID=3394] knockout.	6	0.0300	1.38E-5	3.27E-2
+GO_NEUROGENESIS	1599	Generation of cells within the nervous system. [GO_REF:0000021, GOC:cls, GOC:curators, GOC:dgh, GOC:dph, GOC:jid, GOC:mtg_15jun06]	15	0.0094	1.45E-5	3.27E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	chr18p11	ICSBP_Q6	GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN	chr17p13	chr3q11	GO_NEURON_DIFFERENTIATION	GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	GO_NEUROGENESIS
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11		ICSBP_Q6						GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11		ICSBP_Q6						GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11		ICSBP_Q6							
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11			GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN				GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		
+6093	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	chr18q11						GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+57534	MIB1	mindbomb E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21086]	chr18q11						GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+25925	ZNF521	zinc finger protein 521 [Source:HGNC Symbol;Acc:HGNC:24605]	chr18q11						GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+114876	OSBPL1A	oxysterol binding protein like 1A [Source:HGNC Symbol;Acc:HGNC:16398]	chr18q11							GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11								GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11									
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11									
+5932	RBBP8	RB binding protein 8, endonuclease [Source:HGNC Symbol;Acc:HGNC:9891]	chr18q11									
+114799	ESCO1	establishment of sister chromatid cohesion N-acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24645]	chr18q11									
+80000	GREB1L	GREB1 like retinoic acid receptor coactivator [Source:HGNC Symbol;Acc:HGNC:31042]	chr18q11									
+59340	HRH4	histamine receptor H4 [Source:HGNC Symbol;Acc:HGNC:17383]	chr18q11									
+26256	CABYR	calcium binding tyrosine phosphorylation regulated [Source:HGNC Symbol;Acc:HGNC:15569]	chr18q11									
+125488	TTC39C	tetratricopeptide repeat domain 39C [Source:HGNC Symbol;Acc:HGNC:26595]	chr18q11									
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11									
+171586	ABHD3	abhydrolase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18718]	chr18q11									
+6632	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide [Source:HGNC Symbol;Acc:HGNC:11158]	chr18q11									
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11									
+84617	TUBB6	tubulin beta 6 class V [Source:HGNC Symbol;Acc:HGNC:20776]		chr18p11	ICSBP_Q6							
+753	LDLRAD4	low density lipoprotein receptor class A domain containing 4 [Source:HGNC Symbol;Acc:HGNC:1224]		chr18p11		GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN						
+3613	IMPA2	inositol monophosphatase 2 [Source:HGNC Symbol;Acc:HGNC:6051]		chr18p11		GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN						
+56907	SPIRE1	spire type actin nucleation factor 1 [Source:HGNC Symbol;Acc:HGNC:30622]		chr18p11								
+4161	MC5R	melanocortin 5 receptor [Source:HGNC Symbol;Acc:HGNC:6933]		chr18p11								
+4158	MC2R	melanocortin 2 receptor [Source:HGNC Symbol;Acc:HGNC:6930]		chr18p11								
+55125	CEP192	centrosomal protein 192 [Source:HGNC Symbol;Acc:HGNC:25515]		chr18p11								
+342850	ANKRD62	ankyrin repeat domain 62 [Source:HGNC Symbol;Acc:HGNC:35241]		chr18p11								
+65258	MPPE1	metallophosphoesterase 1 [Source:HGNC Symbol;Acc:HGNC:15988]		chr18p11								
+2774	GNAL	G protein subunit alpha L [Source:HGNC Symbol;Acc:HGNC:4388]		chr18p11								
+8731	RNMT	RNA guanine-7 methyltransferase [Source:HGNC Symbol;Acc:HGNC:10075]		chr18p11								
+1149	CIDEA	cell death inducing DFFA like effector a [Source:HGNC Symbol;Acc:HGNC:1976]		chr18p11								
+125228	FAM210A	family with sequence similarity 210 member A [Source:HGNC Symbol;Acc:HGNC:28346]		chr18p11								
+374860	ANKRD30B	ankyrin repeat domain 30B [Source:HGNC Symbol;Acc:HGNC:24165]		chr18p11								
+162655	ZNF519	zinc finger protein 519 [Source:HGNC Symbol;Acc:HGNC:30574]		chr18p11								
+388468	POTEC	POTE ankyrin domain family member C [Source:HGNC Symbol;Acc:HGNC:33894]		chr18p11								
+84189	SLITRK6	SLIT and NTRK like family member 6 [Source:HGNC Symbol;Acc:HGNC:23503]			ICSBP_Q6				GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+22797	TFEC	transcription factor EC [Source:HGNC Symbol;Acc:HGNC:11754]			ICSBP_Q6					GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		
+10580	SORBS1	sorbin and SH3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14565]			ICSBP_Q6						GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+84181	CHD6	chromodomain helicase DNA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:19057]			ICSBP_Q6							
+284613	CYB561D1	cytochrome b561 family member D1 [Source:HGNC Symbol;Acc:HGNC:26804]			ICSBP_Q6							
+5176	SERPINF1	serpin family F member 1 [Source:HGNC Symbol;Acc:HGNC:8824]				GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN	chr17p13		GO_NEURON_DIFFERENTIATION	GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		GO_NEUROGENESIS
+131544	CRYBG3	crystallin beta-gamma domain containing 3 [Source:HGNC Symbol;Acc:HGNC:34427]				GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN		chr3q11				
+55819	RNF130	ring finger protein 130 [Source:HGNC Symbol;Acc:HGNC:18280]				GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN				GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		
+29969	MDFIC	MyoD family inhibitor domain containing [Source:HGNC Symbol;Acc:HGNC:28870]				GSE29618_BCELL_VS_PDC_DAY7_FLU_VACCINE_DN					GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+146760	RTN4RL1	reticulon 4 receptor like 1 [Source:HGNC Symbol;Acc:HGNC:21329]					chr17p13		GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+6117	RPA1	replication protein A1 [Source:HGNC Symbol;Acc:HGNC:10289]					chr17p13					
+5345	SERPINF2	serpin family F member 2 [Source:HGNC Symbol;Acc:HGNC:9075]					chr17p13					
+124997	WDR81	WD repeat domain 81 [Source:HGNC Symbol;Acc:HGNC:26600]					chr17p13					
+114826	SMYD4	SET and MYND domain containing 4 [Source:HGNC Symbol;Acc:HGNC:21067]					chr17p13					
+10594	PRPF8	pre-mRNA processing factor 8 [Source:HGNC Symbol;Acc:HGNC:17340]					chr17p13					
+727910	TLCD2	TLC domain containing 2 [Source:HGNC Symbol;Acc:HGNC:33522]					chr17p13					
+285220	EPHA6	EPH receptor A6 [Source:HGNC Symbol;Acc:HGNC:19296]						chr3q11	GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+84100	ARL6	ADP ribosylation factor like GTPase 6 [Source:HGNC Symbol;Acc:HGNC:13210]						chr3q11				
+100463498	MTRNR2L12	MT-RNR2 like 12 [Source:HGNC Symbol;Acc:HGNC:37169]						chr3q11				
+5601	MAPK9	mitogen-activated protein kinase 9 [Source:HGNC Symbol;Acc:HGNC:6886]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+57463	AMIGO1	adhesion molecule with Ig like domain 1 [Source:HGNC Symbol;Acc:HGNC:20824]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+473	RERE	arginine-glutamic acid dipeptide repeats [Source:HGNC Symbol;Acc:HGNC:9965]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+3908	LAMA2	laminin subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:6482]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+26037	SIPA1L1	signal induced proliferation associated 1 like 1 [Source:HGNC Symbol;Acc:HGNC:20284]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+84894	LINGO1	leucine rich repeat and Ig domain containing 1 [Source:HGNC Symbol;Acc:HGNC:21205]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+6929	TCF3	transcription factor 3 [Source:HGNC Symbol;Acc:HGNC:11633]							GO_NEURON_DIFFERENTIATION			GO_NEUROGENESIS
+4644	MYO5A	myosin VA [Source:HGNC Symbol;Acc:HGNC:7602]								GSE17301_ACD3_ACD28_VS_ACD3_ACD28_AND_IFNA5_STIM_CD8_TCELL_DN		
+1016	CDH18	cadherin 18 [Source:HGNC Symbol;Acc:HGNC:1757]									GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	
+4920	ROR2	receptor tyrosine kinase like orphan receptor 2 [Source:HGNC Symbol;Acc:HGNC:10257]										GO_NEUROGENESIS
+4868	NPHS1	NPHS1 adhesion molecule, nephrin [Source:HGNC Symbol;Acc:HGNC:7908]										
+26751	SH3YL1	SH3 and SYLF domain containing 1 [Source:HGNC Symbol;Acc:HGNC:29546]										
+22879	MON1B	MON1 homolog B, secretory trafficking associated [Source:HGNC Symbol;Acc:HGNC:25020]										
+1413	CRYBA4	crystallin beta A4 [Source:HGNC Symbol;Acc:HGNC:2396]										
+285237	C3orf38	chromosome 3 open reading frame 38 [Source:HGNC Symbol;Acc:HGNC:28384]										
+120103	SLC36A4	solute carrier family 36 member 4 [Source:HGNC Symbol;Acc:HGNC:19660]										
+10409	BASP1	brain abundant membrane attached signal protein 1 [Source:HGNC Symbol;Acc:HGNC:957]										
+4330	MN1	MN1 proto-oncogene, transcriptional regulator [Source:HGNC Symbol;Acc:HGNC:7180]										
+9124	PDLIM1	PDZ and LIM domain 1 [Source:HGNC Symbol;Acc:HGNC:2067]										
+127002	ATXN7L2	ataxin 7 like 2 [Source:HGNC Symbol;Acc:HGNC:28713]										
+9628	RGS6	regulator of G protein signaling 6 [Source:HGNC Symbol;Acc:HGNC:10002]										
+333	APLP1	amyloid beta precursor like protein 1 [Source:HGNC Symbol;Acc:HGNC:597]										
+56913	C1GALT1	core 1 synthase, glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24337]										
+254910	LCE5A	late cornified envelope 5A [Source:HGNC Symbol;Acc:HGNC:16614]										
+353134	LCE1D	late cornified envelope 1D [Source:HGNC Symbol;Acc:HGNC:29465]										
+1558	CYP2C8	cytochrome P450 family 2 subfamily C member 8 [Source:HGNC Symbol;Acc:HGNC:2622]										
+6336	SCN10A	sodium voltage-gated channel alpha subunit 10 [Source:HGNC Symbol;Acc:HGNC:10582]										
+23336	SYNM	synemin [Source:HGNC Symbol;Acc:HGNC:24466]										
+10975	UQCR11	ubiquinol-cytochrome c reductase, complex III subunit XI [Source:HGNC Symbol;Acc:HGNC:30862]										
+142827	ACSM6	acyl-CoA synthetase medium chain family member 6 [Source:HGNC Symbol;Acc:HGNC:31665]										
+4697	NDUFA4	NDUFA4 mitochondrial complex associated [Source:HGNC Symbol;Acc:HGNC:7687]										
+5910	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1 [Source:HGNC Symbol;Acc:HGNC:9859]										
+11122	PTPRT	protein tyrosine phosphatase receptor type T [Source:HGNC Symbol;Acc:HGNC:9682]										
+1557	CYP2C19	cytochrome P450 family 2 subfamily C member 19 [Source:HGNC Symbol;Acc:HGNC:2621]										
+83873	GPR61	G protein-coupled receptor 61 [Source:HGNC Symbol;Acc:HGNC:13300]										
+256227	STEAP1B	STEAP family member 1B [Source:HGNC Symbol;Acc:HGNC:41907]										
+27115	PDE7B	phosphodiesterase 7B [Source:HGNC Symbol;Acc:HGNC:8792]										
+390874	ONECUT3	one cut homeobox 3 [Source:NCBI gene;Acc:390874]										
+255426	RASGEF1C	RasGEF domain family member 1C [Source:HGNC Symbol;Acc:HGNC:27400]										
+120406	NXPE2	neurexophilin and PC-esterase domain family member 2 [Source:HGNC Symbol;Acc:HGNC:26331]										
+401145	CCSER1	coiled-coil serine rich protein 1 [Source:HGNC Symbol;Acc:HGNC:29349]										
+285555	STPG2	sperm tail PG-rich repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:28712]										

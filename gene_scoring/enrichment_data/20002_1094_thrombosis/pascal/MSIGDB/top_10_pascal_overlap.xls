@@ -1,0 +1,36 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	11
+# genesets in collections:	22596
+# genes in comparison (n):	10
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr4q35	103	ENSEMBL 97 Genes in Cytogenetic Band chr4q35	4	0.0388	1.05E-8	2.37E-4
+BIOCARTA_INTRINSIC_PATHWAY	23	Intrinsic Prothrombin Activation Pathway	3	0.1304	2.31E-8	2.61E-4
+REACTOME_FORMATION_OF_FIBRIN_CLOT_CLOTTING_CASCADE	39	Formation of Fibrin Clot (Clotting Cascade)	3	0.0769	1.19E-7	8.95E-4
+KEGG_COMPLEMENT_AND_COAGULATION_CASCADES	69	Complement and coagulation cascades	3	0.0435	6.78E-7	3.42E-3
+chr9q34	299	ENSEMBL 97 Genes in Cytogenetic Band chr9q34	4	0.0134	7.56E-7	3.42E-3
+GO_REGULATION_OF_FIBRINOLYSIS	14	Any process that modulates the frequency, rate or extent of fibrinolysis, an ongoing process that solubilizes fibrin, resulting in the removal of small blood clots. [GOC:ai]	2	0.1429	5.65E-6	2.13E-2
+GO_BLOOD_COAGULATION_INTRINSIC_PATHWAY	18	A protein activation cascade that contributes to blood coagulation and consists of the interactions among high molecular weight kininogen, prekallikrein, and factor XII that lead to the activation of clotting factor X. [GOC:add, GOC:mah, GOC:pde]	2	0.1111	9.49E-6	3.06E-2
+REACTOME_INTRINSIC_PATHWAY_OF_FIBRIN_CLOT_FORMATION	22	Intrinsic Pathway of Fibrin Clot Formation	2	0.0909	1.43E-5	4.04E-2
+GO_PLASMINOGEN_ACTIVATION	24	The process in which inactive plasminogen is processed to active plasmin. This process includes cleavage at an internal Arg-Val site to form an N-terminal A-chain and C-terminal B-chain held together by a disulfide bond, and can include further proteolytic cleavage events to remove the preactivation peptide. [PMID:9548733]	2	0.0833	1.71E-5	4.29E-2
+GO_FIBRINOLYSIS	28	A process that solubilizes fibrin in the bloodstream of a multicellular organism, chiefly by the proteolytic action of plasmin. [GOC:jl, PMID:15842654]	2	0.0714	2.34E-5	4.81E-2
+GO_PROTEIN_ACTIVATION_CASCADE	28	A response to a stimulus that consists of a sequential series of modifications to a set of proteins where the product of one reaction acts catalytically in the following reaction. The magnitude of the response is typically amplified at each successive step in the cascade. Modifications typically include proteolysis or covalent modification, and may also include binding events. [GOC:add, GOC:mah, GOC:pde]	2	0.0714	2.34E-5	4.81E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr4q35	BIOCARTA_INTRINSIC_PATHWAY	REACTOME_FORMATION_OF_FIBRIN_CLOT_CLOTTING_CASCADE	KEGG_COMPLEMENT_AND_COAGULATION_CASCADES	chr9q34	GO_REGULATION_OF_FIBRINOLYSIS	GO_BLOOD_COAGULATION_INTRINSIC_PATHWAY	REACTOME_INTRINSIC_PATHWAY_OF_FIBRIN_CLOT_FORMATION	GO_PLASMINOGEN_ACTIVATION	GO_FIBRINOLYSIS	GO_PROTEIN_ACTIVATION_CASCADE
+2160	F11	coagulation factor XI [Source:HGNC Symbol;Acc:HGNC:3529]	chr4q35	BIOCARTA_INTRINSIC_PATHWAY	REACTOME_FORMATION_OF_FIBRIN_CLOT_CLOTTING_CASCADE	KEGG_COMPLEMENT_AND_COAGULATION_CASCADES		GO_REGULATION_OF_FIBRINOLYSIS	GO_BLOOD_COAGULATION_INTRINSIC_PATHWAY	REACTOME_INTRINSIC_PATHWAY_OF_FIBRIN_CLOT_FORMATION	GO_PLASMINOGEN_ACTIVATION	GO_FIBRINOLYSIS	GO_PROTEIN_ACTIVATION_CASCADE
+3818	KLKB1	kallikrein B1 [Source:HGNC Symbol;Acc:HGNC:6371]	chr4q35	BIOCARTA_INTRINSIC_PATHWAY	REACTOME_FORMATION_OF_FIBRIN_CLOT_CLOTTING_CASCADE	KEGG_COMPLEMENT_AND_COAGULATION_CASCADES		GO_REGULATION_OF_FIBRINOLYSIS	GO_BLOOD_COAGULATION_INTRINSIC_PATHWAY	REACTOME_INTRINSIC_PATHWAY_OF_FIBRIN_CLOT_FORMATION	GO_PLASMINOGEN_ACTIVATION	GO_FIBRINOLYSIS	GO_PROTEIN_ACTIVATION_CASCADE
+285440	CYP4V2	cytochrome P450 family 4 subfamily V member 2 [Source:HGNC Symbol;Acc:HGNC:23198]	chr4q35										
+285441	F11-AS1	F11 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27725]	chr4q35										
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]		BIOCARTA_INTRINSIC_PATHWAY	REACTOME_FORMATION_OF_FIBRIN_CLOT_CLOTTING_CASCADE	KEGG_COMPLEMENT_AND_COAGULATION_CASCADES							
+6838	SURF6	surfeit 6 [Source:HGNC Symbol;Acc:HGNC:11478]					chr9q34						
+29989	OBP2B	odorant binding protein 2B [Source:HGNC Symbol;Acc:HGNC:23381]					chr9q34						
+28	ABO	ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase [Source:HGNC Symbol;Acc:HGNC:79]					chr9q34						
+11182	SLC2A6	solute carrier family 2 member 6 [Source:HGNC Symbol;Acc:HGNC:11011]					chr9q34						
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]											

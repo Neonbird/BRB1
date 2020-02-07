@@ -1,0 +1,98 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	3
+# genesets in collections:	22596
+# genes in comparison (n):	80
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	11	0.1447	8.88E-18	2.01E-13
+NAGASHIMA_NRG1_SIGNALING_UP	172	Genes up-regulated in MCF7 cells (breast cancer) after stimulation with NRG1 [GeneID=3084].	8	0.0465	3.25E-9	3.67E-5
+GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN	199	Genes down-regulated in B lymphocytes: anti IgM versus CpG oligodeoxynucleotide 1826.	6	0.0302	4.13E-6	3.11E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	NAGASHIMA_NRG1_SIGNALING_UP	GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11	NAGASHIMA_NRG1_SIGNALING_UP	
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11	NAGASHIMA_NRG1_SIGNALING_UP	
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11	NAGASHIMA_NRG1_SIGNALING_UP	
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11		
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11		
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11		
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11		
+114799	ESCO1	establishment of sister chromatid cohesion N-acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24645]	chr18q11		
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11		
+125488	TTC39C	tetratricopeptide repeat domain 39C [Source:HGNC Symbol;Acc:HGNC:26595]	chr18q11		
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11		
+8651	SOCS1	suppressor of cytokine signaling 1 [Source:HGNC Symbol;Acc:HGNC:19383]		NAGASHIMA_NRG1_SIGNALING_UP	GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+79693	YRDC	yrdC N6-threonylcarbamoyltransferase domain containing [Source:HGNC Symbol;Acc:HGNC:28905]		NAGASHIMA_NRG1_SIGNALING_UP	GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+84617	TUBB6	tubulin beta 6 class V [Source:HGNC Symbol;Acc:HGNC:20776]		NAGASHIMA_NRG1_SIGNALING_UP	
+2624	GATA2	GATA binding protein 2 [Source:HGNC Symbol;Acc:HGNC:4171]		NAGASHIMA_NRG1_SIGNALING_UP	
+8877	SPHK1	sphingosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:11240]		NAGASHIMA_NRG1_SIGNALING_UP	
+9368	SLC9A3R1	SLC9A3 regulator 1 [Source:HGNC Symbol;Acc:HGNC:11075]			GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+11313	LYPLA2	lysophospholipase 2 [Source:HGNC Symbol;Acc:HGNC:6738]			GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+10802	SEC24A	SEC24 homolog A, COPII coat complex component [Source:HGNC Symbol;Acc:HGNC:10703]			GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+84172	POLR1B	RNA polymerase I subunit B [Source:HGNC Symbol;Acc:HGNC:20454]			GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_DN
+284613	CYB561D1	cytochrome b561 family member D1 [Source:HGNC Symbol;Acc:HGNC:26804]			
+1020	CDK5	cyclin dependent kinase 5 [Source:HGNC Symbol;Acc:HGNC:1774]			
+27111	SDCBP2	syndecan binding protein 2 [Source:HGNC Symbol;Acc:HGNC:15756]			
+23125	CAMTA2	calmodulin binding transcription activator 2 [Source:HGNC Symbol;Acc:HGNC:18807]			
+90488	TMEM263	transmembrane protein 263 [Source:HGNC Symbol;Acc:HGNC:28281]			
+632	BGLAP	bone gamma-carboxyglutamate protein [Source:HGNC Symbol;Acc:HGNC:1043]			
+1802	DPH2	diphthamide biosynthesis 2 [Source:HGNC Symbol;Acc:HGNC:3004]			
+1801	DPH1	diphthamide biosynthesis 1 [Source:HGNC Symbol;Acc:HGNC:3003]			
+55754	TMEM30A	transmembrane protein 30A [Source:HGNC Symbol;Acc:HGNC:16667]			
+10768	AHCYL1	adenosylhomocysteinase like 1 [Source:HGNC Symbol;Acc:HGNC:344]			
+118424	UBE2J2	ubiquitin conjugating enzyme E2 J2 [Source:HGNC Symbol;Acc:HGNC:19268]			
+522	ATP5PF	ATP synthase peripheral stalk subunit F6 [Source:HGNC Symbol;Acc:HGNC:847]			
+11224	RPL35	ribosomal protein L35 [Source:HGNC Symbol;Acc:HGNC:10344]			
+57463	AMIGO1	adhesion molecule with Ig like domain 1 [Source:HGNC Symbol;Acc:HGNC:20824]			
+4317	MMP8	matrix metallopeptidase 8 [Source:HGNC Symbol;Acc:HGNC:7175]			
+9094	UNC119	unc-119 lipid binding chaperone [Source:HGNC Symbol;Acc:HGNC:12565]			
+146760	RTN4RL1	reticulon 4 receptor like 1 [Source:HGNC Symbol;Acc:HGNC:21329]			
+3090	HIC1	HIC ZBTB transcriptional repressor 1 [Source:HGNC Symbol;Acc:HGNC:4909]			
+64064	OXCT2	3-oxoacid CoA-transferase 2 [Source:HGNC Symbol;Acc:HGNC:18606]			
+8394	PIP5K1A	phosphatidylinositol-4-phosphate 5-kinase type 1 alpha [Source:HGNC Symbol;Acc:HGNC:8994]			
+1413	CRYBA4	crystallin beta A4 [Source:HGNC Symbol;Acc:HGNC:2396]			
+2657	GDF1	growth differentiation factor 1 [Source:HGNC Symbol;Acc:HGNC:4214]			
+5623	PSPN	persephin [Source:HGNC Symbol;Acc:HGNC:9579]			
+8338	HIST2H2AC	histone cluster 2 H2A family member c [Source:HGNC Symbol;Acc:HGNC:4738]			
+124641	OVCA2	OVCA2 serine hydrolase domain containing [Source:HGNC Symbol;Acc:HGNC:24203]			
+114336	CGB2	chorionic gonadotropin subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:16722]			
+114335	CGB1	chorionic gonadotropin subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:16721]			
+389124	IQCF5	IQ motif containing F5 [Source:HGNC Symbol;Acc:HGNC:35159]			
+8843	HCAR3	hydroxycarboxylic acid receptor 3 [Source:HGNC Symbol;Acc:HGNC:16824]			
+6339	SCNN1D	sodium channel epithelial 1 delta subunit [Source:HGNC Symbol;Acc:HGNC:10601]			
+127002	ATXN7L2	ataxin 7 like 2 [Source:HGNC Symbol;Acc:HGNC:28713]			
+150223	YDJC	YdjC chitooligosaccharide deacetylase homolog [Source:HGNC Symbol;Acc:HGNC:27158]			
+5355	PLP2	proteolipid protein 2 [Source:HGNC Symbol;Acc:HGNC:9087]			
+79894	ZNF672	zinc finger protein 672 [Source:HGNC Symbol;Acc:HGNC:26179]			
+5993	RFX5	regulatory factor X5 [Source:HGNC Symbol;Acc:HGNC:9986]			
+124056	NOXO1	NADPH oxidase organizer 1 [Source:HGNC Symbol;Acc:HGNC:19404]			
+165721	DNAJB8	DnaJ heat shock protein family (Hsp40) member B8 [Source:HGNC Symbol;Acc:HGNC:23699]			
+114034	TOE1	target of EGR1, exonuclease [Source:HGNC Symbol;Acc:HGNC:15954]			
+126792	B3GALT6	beta-1,3-galactosyltransferase 6 [Source:HGNC Symbol;Acc:HGNC:17978]			
+2671	GFER	growth factor, augmenter of liver regeneration [Source:HGNC Symbol;Acc:HGNC:4236]			
+7011	TEP1	telomerase associated protein 1 [Source:HGNC Symbol;Acc:HGNC:11726]			
+9879	DDX46	DEAD-box helicase 46 [Source:HGNC Symbol;Acc:HGNC:18681]			
+80298	MTERF2	mitochondrial transcription termination factor 2 [Source:HGNC Symbol;Acc:HGNC:30779]			
+203562	TMEM31	transmembrane protein 31 [Source:HGNC Symbol;Acc:HGNC:28601]			
+84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17840]			
+390538	OR4M2	olfactory receptor family 4 subfamily M member 2 [Source:HGNC Symbol;Acc:HGNC:15373]			
+645425	PRAMEF20	PRAME family member 20 [Source:HGNC Symbol;Acc:HGNC:25224]			
+284498	C1orf167	chromosome 1 open reading frame 167 [Source:HGNC Symbol;Acc:HGNC:25262]			
+401665	OR51T1	olfactory receptor family 51 subfamily T member 1 [Source:HGNC Symbol;Acc:HGNC:15205]			
+7201	TRHR	thyrotropin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:12299]			
+79798	ARMC5	armadillo repeat containing 5 [Source:HGNC Symbol;Acc:HGNC:25781]			
+93659	CGB5	chorionic gonadotropin subunit beta 5 [Source:HGNC Symbol;Acc:HGNC:16452]			
+388394	RPRML	reprimo like [Source:HGNC Symbol;Acc:HGNC:32422]			
+342933	ZSCAN5B	zinc finger and SCAN domain containing 5B [Source:HGNC Symbol;Acc:HGNC:34246]			
+10407	SPAG11B	sperm associated antigen 11B [Source:HGNC Symbol;Acc:HGNC:14534]			
+3266	ERAS	ES cell expressed Ras [Source:HGNC Symbol;Acc:HGNC:5174]			
+493901	RNASE12	ribonuclease A family member 12 (inactive) [Source:HGNC Symbol;Acc:HGNC:24211]			
+246744	STH	saitohin [Source:HGNC Symbol;Acc:HGNC:18839]			
+100132963	SMIM9	small integral membrane protein 9 [Source:HGNC Symbol;Acc:HGNC:41915]			
+645843	TMEM14EP	transmembrane protein 14E, pseudogene [Source:HGNC Symbol;Acc:HGNC:34386]			

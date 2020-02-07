@@ -1,0 +1,43 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	5
+# genesets in collections:	22596
+# genes in comparison (n):	23
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	9	0.0776	1.3E-17	2.95E-13
+chr4q13	144	ENSEMBL 97 Genes in Cytogenetic Band chr4q13	5	0.0347	2.3E-8	2.06E-4
+NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	149	Genes within amplicon 20q12-q13 identified in a copy number alterations study of 191 breast tumor samples.	5	0.0336	2.73E-8	2.06E-4
+chr20q13	388	ENSEMBL 97 Genes in Cytogenetic Band chr20q13	5	0.0129	3.11E-6	1.75E-2
+GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN	198	Genes down-regulated in BCL6 [GeneID=604] high follicular helper T cells versus T conv cells.	4	0.0202	5.83E-6	2.63E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24	chr4q13	NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24				GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24				GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+1805	DPT	dermatopontin [Source:HGNC Symbol;Acc:HGNC:3011]	chr1q24				
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24				
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24				
+55732	C1orf112	chromosome 1 open reading frame 112 [Source:HGNC Symbol;Acc:HGNC:25565]	chr1q24				
+22920	KIFAP3	kinesin associated protein 3 [Source:HGNC Symbol;Acc:HGNC:17060]	chr1q24				
+149281	METTL11B	methyltransferase like 11B [Source:HGNC Symbol;Acc:HGNC:31932]	chr1q24				
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24				
+213	ALB	albumin [Source:HGNC Symbol;Acc:HGNC:399]		chr4q13			GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+9508	ADAMTS3	ADAM metallopeptidase with thrombospondin type 1 motif 3 [Source:HGNC Symbol;Acc:HGNC:219]		chr4q13			
+26057	ANKRD17	ankyrin repeat domain 17 [Source:HGNC Symbol;Acc:HGNC:23575]		chr4q13			
+2921	CXCL3	C-X-C motif chemokine ligand 3 [Source:HGNC Symbol;Acc:HGNC:4604]		chr4q13			
+285521	COX18	cytochrome c oxidase assembly factor COX18 [Source:HGNC Symbol;Acc:HGNC:26801]		chr4q13			
+5753	PTK6	protein tyrosine kinase 6 [Source:HGNC Symbol;Acc:HGNC:9617]			NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	
+79144	PPDPF	pancreatic progenitor cell differentiation and proliferation factor [Source:HGNC Symbol;Acc:HGNC:16142]			NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	
+6725	SRMS	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites [Source:HGNC Symbol;Acc:HGNC:11298]			NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]			NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	
+85441	HELZ2	helicase with zinc finger 2 [Source:HGNC Symbol;Acc:HGNC:30021]			NIKOLSKY_BREAST_CANCER_20Q12_Q13_AMPLICON	chr20q13	
+7306	TYRP1	tyrosinase related protein 1 [Source:HGNC Symbol;Acc:HGNC:12450]					GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]					
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]					
+440279	UNC13C	unc-13 homolog C [Source:HGNC Symbol;Acc:HGNC:23149]					

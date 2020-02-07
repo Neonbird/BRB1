@@ -1,0 +1,42 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	4
+# genesets in collections:	22596
+# genes in comparison (n):	23
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	12	0.1034	4.7E-25	1.06E-20
+chr4q13	144	ENSEMBL 97 Genes in Cytogenetic Band chr4q13	4	0.0278	1.65E-6	1.78E-2
+REACTOME_HEMOSTASIS	674	Hemostasis	6	0.0089	2.36E-6	1.78E-2
+GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN	198	Genes down-regulated in BCL6 [GeneID=604] high follicular helper T cells versus T conv cells.	4	0.0202	5.83E-6	3.29E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24	chr4q13	REACTOME_HEMOSTASIS	GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24		REACTOME_HEMOSTASIS	GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+6403	SELP	selectin P [Source:HGNC Symbol;Acc:HGNC:10721]	chr1q24		REACTOME_HEMOSTASIS	
+6401	SELE	selectin E [Source:HGNC Symbol;Acc:HGNC:10718]	chr1q24		REACTOME_HEMOSTASIS	
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24		REACTOME_HEMOSTASIS	
+22920	KIFAP3	kinesin associated protein 3 [Source:HGNC Symbol;Acc:HGNC:17060]	chr1q24		REACTOME_HEMOSTASIS	
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24			GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+1805	DPT	dermatopontin [Source:HGNC Symbol;Acc:HGNC:3011]	chr1q24			
+55732	C1orf112	chromosome 1 open reading frame 112 [Source:HGNC Symbol;Acc:HGNC:25565]	chr1q24			
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24			
+149281	METTL11B	methyltransferase like 11B [Source:HGNC Symbol;Acc:HGNC:31932]	chr1q24			
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24			
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24			
+213	ALB	albumin [Source:HGNC Symbol;Acc:HGNC:399]		chr4q13	REACTOME_HEMOSTASIS	GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+9508	ADAMTS3	ADAM metallopeptidase with thrombospondin type 1 motif 3 [Source:HGNC Symbol;Acc:HGNC:219]		chr4q13		
+26057	ANKRD17	ankyrin repeat domain 17 [Source:HGNC Symbol;Acc:HGNC:23575]		chr4q13		
+285521	COX18	cytochrome c oxidase assembly factor COX18 [Source:HGNC Symbol;Acc:HGNC:26801]		chr4q13		
+7306	TYRP1	tyrosinase related protein 1 [Source:HGNC Symbol;Acc:HGNC:12450]				GSE24574_BCL6_HIGH_TFH_VS_TCONV_CD4_TCELL_DN
+5753	PTK6	protein tyrosine kinase 6 [Source:HGNC Symbol;Acc:HGNC:9617]				
+6725	SRMS	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites [Source:HGNC Symbol;Acc:HGNC:11298]				
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]				
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]				
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]				
+440279	UNC13C	unc-13 homolog C [Source:HGNC Symbol;Acc:HGNC:23149]				

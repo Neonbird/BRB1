@@ -1,0 +1,28 @@
+Not_abs
+
+sort -gr -k3,3 not_abs/not_abs_20002_1094_genescores.tsv | cut -f 2 | head -100 > not_abs/top_n/top_100_not_abs.txt
+sort -gr -k3,3 not_abs/not_abs_20002_1094_genescores.tsv | cut -f 2 | head -50 > not_abs/top_n/top_50_not_abs.txt 
+sort -gr -k3,3 not_abs/not_abs_20002_1094_genescores.tsv | cut -f 2 | head -25 > not_abs/top_n/top_25_not_abs.txt 
+sort -gr -k3,3 not_abs/not_abs_20002_1094_genescores.tsv | cut -f 2 | head -10 > not_abs/top_n/top_10_not_abs.txt 
+
+With_abs
+
+sort -gr -k3,3 with_abs/with_abs_20002_1094_genescores.tsv | cut -f 2 | head -100 > with_abs/top_n/top_100_with_abs.txt 
+sort -gr -k3,3 with_abs/with_abs_20002_1094_genescores.tsv | cut -f 2 | head -50 > with_abs/top_n/top_50_with_abs.txt 
+sort -gr -k3,3 with_abs/with_abs_20002_1094_genescores.tsv | cut -f 2 | head -25 > with_abs/top_n/top_25_with_abs.txt 
+sort -gr -k3,3 with_abs/with_abs_20002_1094_genescores.tsv | cut -f 2 | head -10 > with_abs/top_n/top_10_with_abs.txt 
+
+SQRT
+
+sort -gr -k3,3 sqrt/sqrt_20002_1094_genescores.tsv | cut -f 2 | head -100 > sqrt/top_n/top_100_sqrt.txt  
+sort -gr -k3,3 sqrt/sqrt_20002_1094_genescores.tsv | cut -f 2 | head -50 > sqrt/top_n/top_50_sqrt.txt  
+sort -gr -k3,3 sqrt/sqrt_20002_1094_genescores.tsv | cut -f 2 | head -25 > sqrt/top_n/top_25_sqrt.txt  
+sort -gr -k3,3 sqrt/sqrt_20002_1094_genescores.tsv | cut -f 2 | head -10 > sqrt/top_n/top_10_sqrt.txt  
+
+PASCAL
+
+tail -n+2  pascal/20002_1094.gwas.imputed_v3.both_sexes_temp.sum.genescores.txt | sort -g -k8,8 | cut -f 6 | head -100 > pascal/top_n/top_100_pascal.txt
+tail -n+2  pascal/20002_1094.gwas.imputed_v3.both_sexes_temp.sum.genescores.txt | sort -g -k8,8 | cut -f 6 | head -50 > pascal/top_n/top_50_pascal.txt
+tail -n+2  pascal/20002_1094.gwas.imputed_v3.both_sexes_temp.sum.genescores.txt | sort -g -k8,8 | cut -f 6 | head -25 > pascal/top_n/top_25_pascal.txt
+tail -n+2  pascal/20002_1094.gwas.imputed_v3.both_sexes_temp.sum.genescores.txt | sort -g -k8,8 | cut -f 6 | head -10 > pascal/top_n/top_10_pascal.txt
+

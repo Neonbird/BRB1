@@ -1,0 +1,26 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	1
+# genesets in collections:	22596
+# genes in comparison (n):	10
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	7	0.0603	2.42E-16	5.47E-12
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24
+1805	DPT	dermatopontin [Source:HGNC Symbol;Acc:HGNC:3011]	chr1q24
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]	
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]	
+440279	UNC13C	unc-13 homolog C [Source:HGNC Symbol;Acc:HGNC:23149]	

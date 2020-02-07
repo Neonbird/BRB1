@@ -1,0 +1,39 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	4
+# genesets in collections:	22596
+# genes in comparison (n):	20
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	17	0.2237	2.1E-44	4.75E-40
+GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	199	Genes down-regulated in comparison of dendritic cells (DC) stimulated with LPS (TLR4 agonist) at 0.5 h versus DC cells stimulated with Pam3Csk4 (TLR1/2 agonist) at 0.5 h.	4	0.0201	3.29E-6	2.53E-2
+GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	200	Genes up-regulated in CD8 T cells: central memory versus effector memory.	4	0.0200	3.36E-6	2.53E-2
+MILI_PSEUDOPODIA_HAPTOTAXIS_UP	509	Transcripts enriched in pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	5	0.0098	5.51E-6	3.11E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+6093	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	chr18q11	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+114799	ESCO1	establishment of sister chromatid cohesion N-acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24645]	chr18q11	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN		
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11		GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	
+125488	TTC39C	tetratricopeptide repeat domain 39C [Source:HGNC Symbol;Acc:HGNC:26595]	chr18q11		GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	
+5932	RBBP8	RB binding protein 8, endonuclease [Source:HGNC Symbol;Acc:HGNC:9891]	chr18q11			MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11			MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+57534	MIB1	mindbomb E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21086]	chr18q11			MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11			
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11			
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11			
+80000	GREB1L	GREB1 like retinoic acid receptor coactivator [Source:HGNC Symbol;Acc:HGNC:31042]	chr18q11			
+171586	ABHD3	abhydrolase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18718]	chr18q11			
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11			
+6632	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide [Source:HGNC Symbol;Acc:HGNC:11158]	chr18q11			
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11			
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11			
+9124	PDLIM1	PDZ and LIM domain 1 [Source:HGNC Symbol;Acc:HGNC:2067]		GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN		
+362	AQP5	aquaporin 5 [Source:HGNC Symbol;Acc:HGNC:638]				
+203562	TMEM31	transmembrane protein 31 [Source:HGNC Symbol;Acc:HGNC:28601]				

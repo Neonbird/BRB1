@@ -1,0 +1,34 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	9
+# genesets in collections:	22596
+# genes in comparison (n):	10
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON	133	Genes within amplicon 17q11-q21 identified in a copy number alterations study of 191 breast tumor samples.	7	0.0526	6.46E-16	1.46E-11
+FARMER_BREAST_CANCER_CLUSTER_8	6	Cluster 8: selected ERBB2 [GeneID=2064] amplicon genes clustered together across breast cancer samples.	3	0.5000	2.61E-10	2.95E-6
+BERTUCCI_INVASIVE_CARCINOMA_DUCTAL_VS_LOBULAR_UP	24	Genes up-regulated in the invasive ductal carcinoma (IDC) compared to the invasive lobular carcinoma (ILC), the two major pathological types of breast cancer.	3	0.1250	2.64E-8	1.93E-4
+chr17q12	138	ENSEMBL 97 Genes in Cytogenetic Band chr17q12	4	0.0290	3.42E-8	1.93E-4
+REACTOME_GRB7_EVENTS_IN_ERBB2_SIGNALING	5	GRB7 events in ERBB2 signaling	2	0.4000	6.21E-7	2.81E-3
+chr17q21	437	ENSEMBL 97 Genes in Cytogenetic Band chr17q21	4	0.0092	3.41E-6	1.28E-2
+SMID_BREAST_CANCER_ERBB2_UP	151	Genes up-regulated in the erbb2 subype of breast cancer samples, characterized by higher expression of ERBB2 [GeneID=2064].	3	0.0199	7.2E-6	2.32E-2
+GSE22611_NOD2_TRANSD_VS_CTRL_TRANSD_HEK293_MDP_STIM_2H_UP	194	Genes up-regulated in HEK293 cells at 2h after stimulation by muramyl dipeptide [PubChem=11620162]: over-expressing mutant NOD2 [GeneID=64127] versus control.	3	0.0155	1.52E-5	4.19E-2
+GSE11924_TH1_VS_TH2_CD4_TCELL_DN	200	Genes down-regulated in comparison of Th1 cells versus Th2 cells.	3	0.0150	1.67E-5	4.19E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON	FARMER_BREAST_CANCER_CLUSTER_8	BERTUCCI_INVASIVE_CARCINOMA_DUCTAL_VS_LOBULAR_UP	chr17q12	REACTOME_GRB7_EVENTS_IN_ERBB2_SIGNALING	chr17q21	SMID_BREAST_CANCER_ERBB2_UP	GSE22611_NOD2_TRANSD_VS_CTRL_TRANSD_HEK293_MDP_STIM_2H_UP	GSE11924_TH1_VS_TH2_CD4_TCELL_DN
+2064	ERBB2	erb-b2 receptor tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:3430]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON	FARMER_BREAST_CANCER_CLUSTER_8	BERTUCCI_INVASIVE_CARCINOMA_DUCTAL_VS_LOBULAR_UP	chr17q12	REACTOME_GRB7_EVENTS_IN_ERBB2_SIGNALING		SMID_BREAST_CANCER_ERBB2_UP	GSE22611_NOD2_TRANSD_VS_CTRL_TRANSD_HEK293_MDP_STIM_2H_UP	
+2886	GRB7	growth factor receptor bound protein 7 [Source:HGNC Symbol;Acc:HGNC:4567]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON	FARMER_BREAST_CANCER_CLUSTER_8	BERTUCCI_INVASIVE_CARCINOMA_DUCTAL_VS_LOBULAR_UP	chr17q12	REACTOME_GRB7_EVENTS_IN_ERBB2_SIGNALING		SMID_BREAST_CANCER_ERBB2_UP		
+55876	GSDMB	gasdermin B [Source:HGNC Symbol;Acc:HGNC:23690]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON	FARMER_BREAST_CANCER_CLUSTER_8				chr17q21	SMID_BREAST_CANCER_ERBB2_UP	GSE22611_NOD2_TRANSD_VS_CTRL_TRANSD_HEK293_MDP_STIM_2H_UP	
+84299	MIEN1	migration and invasion enhancer 1 [Source:HGNC Symbol;Acc:HGNC:28230]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON		BERTUCCI_INVASIVE_CARCINOMA_DUCTAL_VS_LOBULAR_UP	chr17q12					
+22806	IKZF3	IKAROS family zinc finger 3 [Source:HGNC Symbol;Acc:HGNC:13178]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON					chr17q21		GSE22611_NOD2_TRANSD_VS_CTRL_TRANSD_HEK293_MDP_STIM_2H_UP	GSE11924_TH1_VS_TH2_CD4_TCELL_DN
+94103	ORMDL3	ORMDL sphingolipid biosynthesis regulator 3 [Source:HGNC Symbol;Acc:HGNC:16038]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON					chr17q21			GSE11924_TH1_VS_TH2_CD4_TCELL_DN
+124626	ZPBP2	zona pellucida binding protein 2 [Source:HGNC Symbol;Acc:HGNC:20678]	NIKOLSKY_BREAST_CANCER_17Q11_Q21_AMPLICON					chr17q21			GSE11924_TH1_VS_TH2_CD4_TCELL_DN
+100616132	MIR4728	microRNA 4728 [Source:HGNC Symbol;Acc:HGNC:41632]				chr17q12					
+3122	HLA-DRA	major histocompatibility complex, class II, DR alpha [Source:HGNC Symbol;Acc:HGNC:4947]									
+56244	BTNL2	butyrophilin like 2 [Source:HGNC Symbol;Acc:HGNC:1142]									

@@ -1,0 +1,112 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	8
+# genesets in collections:	22596
+# genes in comparison (n):	89
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	7	0.0603	1.14E-8	2.58E-4
+GO_NUCLEAR_CHROMOSOME	600	A chromosome that encodes the nuclear genome and is found in the nucleus of a eukaryotic cell during the cell cycle phases when the nucleus is intact. [GOC:dph, GOC:mah]	11	0.0183	1.64E-7	1.86E-3
+GO_CHROMATIN	559	The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome. [GOC:elh, PMID:20404130]	10	0.0179	7.77E-7	5.23E-3
+REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	77	RMTs methylate histone arginines	5	0.0649	1.08E-6	5.23E-3
+GO_CHROMOSOME	1063	A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information. [ISBN:0198547684]	13	0.0122	1.16E-6	5.23E-3
+NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON	157	Genes within amplicon 8q23-q24 identified in a copy number alterations study of 191 breast tumor samples.	6	0.0382	1.96E-6	7.39E-3
+GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	193	Genes down-regulated in comparison of control conventional dendritic cells (cDC) at 1 h versus cDCs infected with Newcastle disease virus (NDV) at 1 h.	6	0.0311	6.45E-6	2.08E-2
+GO_DNA_PACKAGING_COMPLEX	114	A protein complex that plays a role in the process of DNA packaging. [GOC:jl]	5	0.0439	7.5E-6	2.12E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24	GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME	NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON	GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	GO_DNA_PACKAGING_COMPLEX
+22920	KIFAP3	kinesin associated protein 3 [Source:HGNC Symbol;Acc:HGNC:17060]	chr1q24	GO_NUCLEAR_CHROMOSOME			GO_CHROMOSOME			
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24						GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24							
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24							
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24							
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24							
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24							
+8363	HIST1H4J	histone cluster 1 H4 family member j [Source:HGNC Symbol;Acc:HGNC:4785]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME			GO_DNA_PACKAGING_COMPLEX
+8330	HIST1H2AK	histone cluster 1 H2A family member k [Source:HGNC Symbol;Acc:HGNC:4726]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME			GO_DNA_PACKAGING_COMPLEX
+8332	HIST1H2AL	histone cluster 1 H2A family member l [Source:HGNC Symbol;Acc:HGNC:4730]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME			GO_DNA_PACKAGING_COMPLEX
+8289	ARID1A	AT-rich interaction domain 1A [Source:HGNC Symbol;Acc:HGNC:11110]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME			
+6602	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1 [Source:HGNC Symbol;Acc:HGNC:11106]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN	REACTOME_RMTS_METHYLATE_HISTONE_ARGININES	GO_CHROMOSOME			
+54737	MPHOSPH8	M-phase phosphoprotein 8 [Source:HGNC Symbol;Acc:HGNC:29810]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN		GO_CHROMOSOME			GO_DNA_PACKAGING_COMPLEX
+83740	H2AFB3	H2A histone family member B3 [Source:HGNC Symbol;Acc:HGNC:14455]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN		GO_CHROMOSOME			GO_DNA_PACKAGING_COMPLEX
+9878	TOX4	TOX high mobility group box family member 4 [Source:HGNC Symbol;Acc:HGNC:20161]		GO_NUCLEAR_CHROMOSOME	GO_CHROMATIN		GO_CHROMOSOME			
+701	BUB1B	BUB1 mitotic checkpoint serine/threonine kinase B [Source:HGNC Symbol;Acc:HGNC:1149]		GO_NUCLEAR_CHROMOSOME			GO_CHROMOSOME			
+55651	NHP2	NHP2 ribonucleoprotein [Source:HGNC Symbol;Acc:HGNC:14377]		GO_NUCLEAR_CHROMOSOME			GO_CHROMOSOME			
+3835	KIF22	kinesin family member 22 [Source:HGNC Symbol;Acc:HGNC:6391]			GO_CHROMATIN		GO_CHROMOSOME			
+26057	ANKRD17	ankyrin repeat domain 17 [Source:HGNC Symbol;Acc:HGNC:23575]			GO_CHROMATIN		GO_CHROMOSOME			
+80778	ZNF34	zinc finger protein 34 [Source:HGNC Symbol;Acc:HGNC:13098]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+84988	PPP1R16A	protein phosphatase 1 regulatory subunit 16A [Source:HGNC Symbol;Acc:HGNC:14941]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+414919	C8orf82	chromosome 8 open reading frame 82 [Source:HGNC Symbol;Acc:HGNC:33826]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+28991	COMMD5	COMM domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17902]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+340385	ZNF517	zinc finger protein 517 [Source:HGNC Symbol;Acc:HGNC:27984]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+441381	LRRC24	leucine rich repeat containing 24 [Source:HGNC Symbol;Acc:HGNC:28947]						NIKOLSKY_BREAST_CANCER_8Q23_Q24_AMPLICON		
+115992	RNF166	ring finger protein 166 [Source:HGNC Symbol;Acc:HGNC:28856]							GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+56339	METTL3	methyltransferase like 3 [Source:HGNC Symbol;Acc:HGNC:17563]							GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+84932	RAB2B	RAB2B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:20246]							GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+389320	TEX43	testis expressed 43 [Source:HGNC Symbol;Acc:HGNC:33767]							GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+9481	SLC25A27	solute carrier family 25 member 27 [Source:HGNC Symbol;Acc:HGNC:21065]							GSE18791_UNSTIM_VS_NEWCATSLE_VIRUS_DC_1H_DN	
+27005	USP21	ubiquitin specific peptidase 21 [Source:HGNC Symbol;Acc:HGNC:12620]								
+4439	MSH5	mutS homolog 5 [Source:HGNC Symbol;Acc:HGNC:7328]								
+163486	DENND1B	DENN domain containing 1B [Source:HGNC Symbol;Acc:HGNC:28404]								
+26292	MYCBP	MYC binding protein [Source:HGNC Symbol;Acc:HGNC:7554]								
+84984	CEP19	centrosomal protein 19 [Source:HGNC Symbol;Acc:HGNC:28209]								
+6651	SON	SON DNA binding protein [Source:HGNC Symbol;Acc:HGNC:11183]								
+8993	PGLYRP1	peptidoglycan recognition protein 1 [Source:HGNC Symbol;Acc:HGNC:8904]								
+4296	MAP3K11	mitogen-activated protein kinase kinase kinase 11 [Source:HGNC Symbol;Acc:HGNC:6850]								
+51808	PHAX	phosphorylated adaptor for RNA export [Source:HGNC Symbol;Acc:HGNC:10241]								
+3182	HNRNPAB	heterogeneous nuclear ribonucleoprotein A/B [Source:HGNC Symbol;Acc:HGNC:5034]								
+647087	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]								
+2921	CXCL3	C-X-C motif chemokine ligand 3 [Source:HGNC Symbol;Acc:HGNC:4604]								
+6374	CXCL5	C-X-C motif chemokine ligand 5 [Source:HGNC Symbol;Acc:HGNC:10642]								
+285521	COX18	cytochrome c oxidase assembly factor COX18 [Source:HGNC Symbol;Acc:HGNC:26801]								
+10663	CXCR6	C-X-C motif chemokine receptor 6 [Source:HGNC Symbol;Acc:HGNC:16647]								
+79144	PPDPF	pancreatic progenitor cell differentiation and proliferation factor [Source:HGNC Symbol;Acc:HGNC:16142]								
+80237	ELL3	elongation factor for RNA polymerase II 3 [Source:HGNC Symbol;Acc:HGNC:23113]								
+1159	CKMT1B	creatine kinase, mitochondrial 1B [Source:HGNC Symbol;Acc:HGNC:1995]								
+1040	CDS1	CDP-diacylglycerol synthase 1 [Source:HGNC Symbol;Acc:HGNC:1800]								
+84708	LNX1	ligand of numb-protein X 1 [Source:HGNC Symbol;Acc:HGNC:6657]								
+147015	DHRS13	dehydrogenase/reductase 13 [Source:HGNC Symbol;Acc:HGNC:28326]								
+9191	DEDD	death effector domain containing [Source:HGNC Symbol;Acc:HGNC:2755]								
+7980	TFPI2	tissue factor pathway inhibitor 2 [Source:HGNC Symbol;Acc:HGNC:11761]								
+117155	CATSPER2	cation channel sperm associated 2 [Source:HGNC Symbol;Acc:HGNC:18810]								
+5753	PTK6	protein tyrosine kinase 6 [Source:HGNC Symbol;Acc:HGNC:9617]								
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]								
+388335	TMEM220	transmembrane protein 220 [Source:HGNC Symbol;Acc:HGNC:33757]								
+126695	KDF1	keratinocyte differentiation factor 1 [Source:HGNC Symbol;Acc:HGNC:26624]								
+468	ATF4	activating transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:786]								
+6725	SRMS	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites [Source:HGNC Symbol;Acc:HGNC:11298]								
+27300	ZNF544	zinc finger protein 544 [Source:HGNC Symbol;Acc:HGNC:16759]								
+1973	EIF4A1	eukaryotic translation initiation factor 4A1 [Source:HGNC Symbol;Acc:HGNC:3282]								
+788	SLC25A20	solute carrier family 25 member 20 [Source:HGNC Symbol;Acc:HGNC:1421]								
+23583	SMUG1	single-strand-selective monofunctional uracil-DNA glycosylase 1 [Source:HGNC Symbol;Acc:HGNC:17148]								
+5202	PFDN2	prefoldin subunit 2 [Source:HGNC Symbol;Acc:HGNC:8867]								
+55776	SAYSD1	SAYSVFN motif domain containing 1 [Source:HGNC Symbol;Acc:HGNC:21025]								
+388394	RPRML	reprimo like [Source:HGNC Symbol;Acc:HGNC:32422]								
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]								
+400629	TEX19	testis expressed 19 [Source:HGNC Symbol;Acc:HGNC:33802]								
+3167	HMX2	H6 family homeobox 2 [Source:HGNC Symbol;Acc:HGNC:5018]								
+100128731	OST4	oligosaccharyltransferase complex subunit 4, non-catalytic [Source:HGNC Symbol;Acc:HGNC:32483]								
+114787	GPRIN1	G protein regulated inducer of neurite outgrowth 1 [Source:HGNC Symbol;Acc:HGNC:24835]								
+219557	TEX47	testis expressed 47 [Source:HGNC Symbol;Acc:HGNC:22402]								
+7589	ZSCAN21	zinc finger and SCAN domain containing 21 [Source:HGNC Symbol;Acc:HGNC:13104]								
+65997	RASL11B	RAS like family 11 member B [Source:HGNC Symbol;Acc:HGNC:23804]								
+353332	KRTAP12-1	keratin associated protein 12-1 [Source:HGNC Symbol;Acc:HGNC:20529]								
+692312	PPAN-P2RY11	PPAN-P2RY11 readthrough [Source:HGNC Symbol;Acc:HGNC:33526]								
+50838	TAS2R13	taste 2 receptor member 13 [Source:HGNC Symbol;Acc:HGNC:14919]								
+89882	TPD52L3	TPD52 like 3 [Source:HGNC Symbol;Acc:HGNC:23382]								
+100996939	PYURF	PIGY upstream reading frame [Source:HGNC Symbol;Acc:HGNC:44317]								
+26534	OR10G2	olfactory receptor family 10 subfamily G member 2 [Source:HGNC Symbol;Acc:HGNC:8170]								
+341416	OR6C2	olfactory receptor family 6 subfamily C member 2 [Source:HGNC Symbol;Acc:HGNC:15436]								
+81061	OR11H1	olfactory receptor family 11 subfamily H member 1 [Source:HGNC Symbol;Acc:HGNC:15404]								
+353144	LCE3C	late cornified envelope 3C [Source:HGNC Symbol;Acc:HGNC:16612]								
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]								
+55472	RBM12B-AS1	RBM12B antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:28818]								
+653125	GOLGA8K	golgin A8 family member K [Source:HGNC Symbol;Acc:HGNC:38652]								
+414235	PRR26	proline rich 26 [Source:HGNC Symbol;Acc:HGNC:30724]								
+642778	NPIPA3	nuclear pore complex interacting protein family member A3 [Source:HGNC Symbol;Acc:HGNC:41978]								

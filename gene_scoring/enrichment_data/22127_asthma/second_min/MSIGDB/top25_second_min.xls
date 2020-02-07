@@ -1,0 +1,46 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	7
+# genesets in collections:	22596
+# genes in comparison (n):	24
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	16	0.2105	8.54E-39	1.93E-34
+ICSBP_Q6	253	Genes having at least one occurence of the transcription factor binding site V$ICSBP_Q6 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	5	0.0198	4.79E-7	4.11E-3
+CUI_TCF21_TARGETS_2_DN	824	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	7	0.0085	5.46E-7	4.11E-3
+GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	199	Genes down-regulated in comparison of dendritic cells (DC) stimulated with LPS (TLR4 agonist) at 0.5 h versus DC cells stimulated with Pam3Csk4 (TLR1/2 agonist) at 0.5 h.	4	0.0201	7.1E-6	3.27E-2
+GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	200	Genes up-regulated in spleen marginal zone B lymphocytes: wildtype versus IRF8 [GeneID=3394] knockout.	4	0.0200	7.24E-6	3.27E-2
+TGACAGNY_MEIS1_01	848	Genes having at least one occurence of the highly conserved motif M41 TGACAGNY sites. The motif matches transcription factor binding site V$MEIS1_01 (v7.4 TRANSFAC).	6	0.0071	1.15E-5	4.33E-2
+MILI_PSEUDOPODIA_HAPTOTAXIS_UP	509	Transcripts enriched in pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	5	0.0098	1.45E-5	4.67E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	ICSBP_Q6	CUI_TCF21_TARGETS_2_DN	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11	ICSBP_Q6	CUI_TCF21_TARGETS_2_DN				
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11	ICSBP_Q6		GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN	GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01	
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11	ICSBP_Q6			GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP	TGACAGNY_MEIS1_01	
+6093	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	chr18q11		CUI_TCF21_TARGETS_2_DN	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN			MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+114799	ESCO1	establishment of sister chromatid cohesion N-acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24645]	chr18q11		CUI_TCF21_TARGETS_2_DN	GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN			MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11		CUI_TCF21_TARGETS_2_DN		GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP		
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11		CUI_TCF21_TARGETS_2_DN			TGACAGNY_MEIS1_01	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+80000	GREB1L	GREB1 like retinoic acid receptor coactivator [Source:HGNC Symbol;Acc:HGNC:31042]	chr18q11					TGACAGNY_MEIS1_01	
+5932	RBBP8	RB binding protein 8, endonuclease [Source:HGNC Symbol;Acc:HGNC:9891]	chr18q11						MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+57534	MIB1	mindbomb E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21086]	chr18q11						MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11						
+171586	ABHD3	abhydrolase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18718]	chr18q11						
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11						
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11						
+6632	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide [Source:HGNC Symbol;Acc:HGNC:11158]	chr18q11						
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11						
+10580	SORBS1	sorbin and SH3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14565]		ICSBP_Q6	CUI_TCF21_TARGETS_2_DN		GSE24972_WT_VS_IRF8_KO_MARGINAL_ZONE_SPLEEN_BCELL_UP		
+22797	TFEC	transcription factor EC [Source:HGNC Symbol;Acc:HGNC:11754]		ICSBP_Q6					
+120103	SLC36A4	solute carrier family 36 member 4 [Source:HGNC Symbol;Acc:HGNC:19660]			CUI_TCF21_TARGETS_2_DN				
+9124	PDLIM1	PDZ and LIM domain 1 [Source:HGNC Symbol;Acc:HGNC:2067]				GSE17721_LPS_VS_PAM3CSK4_0.5H_BMDC_DN		TGACAGNY_MEIS1_01	
+4330	MN1	MN1 proto-oncogene, transcriptional regulator [Source:HGNC Symbol;Acc:HGNC:7180]						TGACAGNY_MEIS1_01	
+1413	CRYBA4	crystallin beta A4 [Source:HGNC Symbol;Acc:HGNC:2396]							
+374860	ANKRD30B	ankyrin repeat domain 30B [Source:HGNC Symbol;Acc:HGNC:24165]							
+142827	ACSM6	acyl-CoA synthetase medium chain family member 6 [Source:HGNC Symbol;Acc:HGNC:31665]							

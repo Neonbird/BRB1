@@ -1,0 +1,63 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	3
+# genesets in collections:	22596
+# genes in comparison (n):	45
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	7	0.0603	8.39E-11	1.9E-6
+GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	199	Genes down-regulated in megakaryo-erythrocyte progenitors versus pro-B lymphocytes.	5	0.0251	3.83E-6	2.96E-2
+GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN	200	Genes down-regulated in plasmacytoid dendritic cells (4h): untreated versus influenza virus infection.	5	0.0250	3.93E-6	2.96E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24	GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24	GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24	GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24		GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24		GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+22920	KIFAP3	kinesin associated protein 3 [Source:HGNC Symbol;Acc:HGNC:17060]	chr1q24		
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24		
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24		
+414919	C8orf82	chromosome 8 open reading frame 82 [Source:HGNC Symbol;Acc:HGNC:33826]		GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+9191	DEDD	death effector domain containing [Source:HGNC Symbol;Acc:HGNC:2755]		GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	
+647087	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]		GSE15330_MEGAKARYOCYTE_ERYTHROID_PROGENITOR_VS_PRO_BCELL_DN	
+55651	NHP2	NHP2 ribonucleoprotein [Source:HGNC Symbol;Acc:HGNC:14377]			GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+79144	PPDPF	pancreatic progenitor cell differentiation and proliferation factor [Source:HGNC Symbol;Acc:HGNC:16142]			GSE7831_UNSTIM_VS_INFLUENZA_STIM_PDC_4H_DN
+84984	CEP19	centrosomal protein 19 [Source:HGNC Symbol;Acc:HGNC:28209]			
+51808	PHAX	phosphorylated adaptor for RNA export [Source:HGNC Symbol;Acc:HGNC:10241]			
+4296	MAP3K11	mitogen-activated protein kinase kinase kinase 11 [Source:HGNC Symbol;Acc:HGNC:6850]			
+468	ATF4	activating transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:786]			
+80778	ZNF34	zinc finger protein 34 [Source:HGNC Symbol;Acc:HGNC:13098]			
+80237	ELL3	elongation factor for RNA polymerase II 3 [Source:HGNC Symbol;Acc:HGNC:23113]			
+8993	PGLYRP1	peptidoglycan recognition protein 1 [Source:HGNC Symbol;Acc:HGNC:8904]			
+9878	TOX4	TOX high mobility group box family member 4 [Source:HGNC Symbol;Acc:HGNC:20161]			
+6602	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1 [Source:HGNC Symbol;Acc:HGNC:11106]			
+54737	MPHOSPH8	M-phase phosphoprotein 8 [Source:HGNC Symbol;Acc:HGNC:29810]			
+8330	HIST1H2AK	histone cluster 1 H2A family member k [Source:HGNC Symbol;Acc:HGNC:4726]			
+56339	METTL3	methyltransferase like 3 [Source:HGNC Symbol;Acc:HGNC:17563]			
+84932	RAB2B	RAB2B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:20246]			
+389320	TEX43	testis expressed 43 [Source:HGNC Symbol;Acc:HGNC:33767]			
+6651	SON	SON DNA binding protein [Source:HGNC Symbol;Acc:HGNC:11183]			
+2921	CXCL3	C-X-C motif chemokine ligand 3 [Source:HGNC Symbol;Acc:HGNC:4604]			
+3182	HNRNPAB	heterogeneous nuclear ribonucleoprotein A/B [Source:HGNC Symbol;Acc:HGNC:5034]			
+5202	PFDN2	prefoldin subunit 2 [Source:HGNC Symbol;Acc:HGNC:8867]			
+23583	SMUG1	single-strand-selective monofunctional uracil-DNA glycosylase 1 [Source:HGNC Symbol;Acc:HGNC:17148]			
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]			
+353332	KRTAP12-1	keratin associated protein 12-1 [Source:HGNC Symbol;Acc:HGNC:20529]			
+4439	MSH5	mutS homolog 5 [Source:HGNC Symbol;Acc:HGNC:7328]			
+28991	COMMD5	COMM domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17902]			
+27005	USP21	ubiquitin specific peptidase 21 [Source:HGNC Symbol;Acc:HGNC:12620]			
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]			
+219557	TEX47	testis expressed 47 [Source:HGNC Symbol;Acc:HGNC:22402]			
+1159	CKMT1B	creatine kinase, mitochondrial 1B [Source:HGNC Symbol;Acc:HGNC:1995]			
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]			
+388335	TMEM220	transmembrane protein 220 [Source:HGNC Symbol;Acc:HGNC:33757]			
+341416	OR6C2	olfactory receptor family 6 subfamily C member 2 [Source:HGNC Symbol;Acc:HGNC:15436]			
+89882	TPD52L3	TPD52 like 3 [Source:HGNC Symbol;Acc:HGNC:23382]			
+81061	OR11H1	olfactory receptor family 11 subfamily H member 1 [Source:HGNC Symbol;Acc:HGNC:15404]			
+642778	NPIPA3	nuclear pore complex interacting protein family member A3 [Source:HGNC Symbol;Acc:HGNC:41978]			

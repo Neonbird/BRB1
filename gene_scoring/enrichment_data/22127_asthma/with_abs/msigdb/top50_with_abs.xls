@@ -1,0 +1,66 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	7
+# genesets in collections:	22596
+# genes in comparison (n):	44
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	19	0.2500	5.96E-41	1.35E-36
+GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	200	Genes up-regulated in CD8 T cells: central memory versus effector memory.	6	0.0300	1.17E-7	1.32E-3
+MILI_PSEUDOPODIA_HAPTOTAXIS_UP	509	Transcripts enriched in pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	7	0.0138	1.84E-6	1.38E-2
+GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP	197	Genes up-regulated in CD4 [GeneID=920] T cells from cord blood versus those from adult blood.	5	0.0254	3.26E-6	1.84E-2
+CUI_TCF21_TARGETS_2_DN	824	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	8	0.0097	4.15E-6	1.88E-2
+TGACAGNY_MEIS1_01	848	Genes having at least one occurence of the highly conserved motif M41 TGACAGNY sites. The motif matches transcription factor binding site V$MEIS1_01 (v7.4 TRANSFAC).	8	0.0094	5.13E-6	1.93E-2
+GFI1_01	267	Genes having at least one occurence of the transcription factor binding site V$GFI1_01 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	5	0.0187	1.42E-5	4.59E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP	GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP	CUI_TCF21_TARGETS_2_DN	TGACAGNY_MEIS1_01	GFI1_01
+6093	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	chr18q11	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP		CUI_TCF21_TARGETS_2_DN		
+114799	ESCO1	establishment of sister chromatid cohesion N-acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:24645]	chr18q11	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP	MILI_PSEUDOPODIA_HAPTOTAXIS_UP		CUI_TCF21_TARGETS_2_DN		
+125488	TTC39C	tetratricopeptide repeat domain 39C [Source:HGNC Symbol;Acc:HGNC:26595]	chr18q11	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP					
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11	GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP					
+5932	RBBP8	RB binding protein 8, endonuclease [Source:HGNC Symbol;Acc:HGNC:9891]	chr18q11		MILI_PSEUDOPODIA_HAPTOTAXIS_UP	GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP			
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11		MILI_PSEUDOPODIA_HAPTOTAXIS_UP		CUI_TCF21_TARGETS_2_DN	TGACAGNY_MEIS1_01	
+57534	MIB1	mindbomb E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21086]	chr18q11		MILI_PSEUDOPODIA_HAPTOTAXIS_UP				
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11			GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP		TGACAGNY_MEIS1_01	
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11				CUI_TCF21_TARGETS_2_DN		
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11				CUI_TCF21_TARGETS_2_DN		
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11					TGACAGNY_MEIS1_01	GFI1_01
+80000	GREB1L	GREB1 like retinoic acid receptor coactivator [Source:HGNC Symbol;Acc:HGNC:31042]	chr18q11					TGACAGNY_MEIS1_01	
+26256	CABYR	calcium binding tyrosine phosphorylation regulated [Source:HGNC Symbol;Acc:HGNC:15569]	chr18q11						
+59340	HRH4	histamine receptor H4 [Source:HGNC Symbol;Acc:HGNC:17383]	chr18q11						
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11						
+6632	SNRPD1	small nuclear ribonucleoprotein D1 polypeptide [Source:HGNC Symbol;Acc:HGNC:11158]	chr18q11						
+171586	ABHD3	abhydrolase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18718]	chr18q11						
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11						
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11						
+753	LDLRAD4	low density lipoprotein receptor class A domain containing 4 [Source:HGNC Symbol;Acc:HGNC:1224]		GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP					
+57035	RSRP1	arginine and serine rich protein 1 [Source:HGNC Symbol;Acc:HGNC:25234]		GSE23321_CENTRAL_VS_EFFECTOR_MEMORY_CD8_TCELL_UP					
+11080	DNAJB4	DnaJ heat shock protein family (Hsp40) member B4 [Source:HGNC Symbol;Acc:HGNC:14886]			MILI_PSEUDOPODIA_HAPTOTAXIS_UP	GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP	CUI_TCF21_TARGETS_2_DN		GFI1_01
+84100	ARL6	ADP ribosylation factor like GTPase 6 [Source:HGNC Symbol;Acc:HGNC:13210]			MILI_PSEUDOPODIA_HAPTOTAXIS_UP				
+9124	PDLIM1	PDZ and LIM domain 1 [Source:HGNC Symbol;Acc:HGNC:2067]				GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP		TGACAGNY_MEIS1_01	GFI1_01
+4771	NF2	neurofibromin 2 [Source:HGNC Symbol;Acc:HGNC:7773]				GSE1460_CORD_VS_ADULT_BLOOD_NAIVE_CD4_TCELL_UP		TGACAGNY_MEIS1_01	
+10580	SORBS1	sorbin and SH3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14565]					CUI_TCF21_TARGETS_2_DN		
+146760	RTN4RL1	reticulon 4 receptor like 1 [Source:HGNC Symbol;Acc:HGNC:21329]					CUI_TCF21_TARGETS_2_DN		
+23154	NCDN	neurochondrin [Source:HGNC Symbol;Acc:HGNC:17597]						TGACAGNY_MEIS1_01	
+8843	HCAR3	hydroxycarboxylic acid receptor 3 [Source:HGNC Symbol;Acc:HGNC:16824]						TGACAGNY_MEIS1_01	
+7087	ICAM5	intercellular adhesion molecule 5 [Source:HGNC Symbol;Acc:HGNC:5348]							GFI1_01
+3386	ICAM4	intercellular adhesion molecule 4 (Landsteiner-Wiener blood group) [Source:HGNC Symbol;Acc:HGNC:5347]							GFI1_01
+29127	RACGAP1	Rac GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:9804]							
+64333	ARHGAP9	Rho GTPase activating protein 9 [Source:HGNC Symbol;Acc:HGNC:14130]							
+362	AQP5	aquaporin 5 [Source:HGNC Symbol;Acc:HGNC:638]							
+203562	TMEM31	transmembrane protein 31 [Source:HGNC Symbol;Acc:HGNC:28601]							
+1413	CRYBA4	crystallin beta A4 [Source:HGNC Symbol;Acc:HGNC:2396]							
+339488	TFAP2E	transcription factor AP-2 epsilon [Source:HGNC Symbol;Acc:HGNC:30774]							
+80298	MTERF2	mitochondrial transcription termination factor 2 [Source:HGNC Symbol;Acc:HGNC:30779]							
+346528	OR2A1	olfactory receptor family 2 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:8229]							
+374860	ANKRD30B	ankyrin repeat domain 30B [Source:HGNC Symbol;Acc:HGNC:24165]							
+388468	POTEC	POTE ankyrin domain family member C [Source:HGNC Symbol;Acc:HGNC:33894]							
+84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17840]							
+3266	ERAS	ES cell expressed Ras [Source:HGNC Symbol;Acc:HGNC:5174]							
+100996939	PYURF	PIGY upstream reading frame [Source:HGNC Symbol;Acc:HGNC:44317]							

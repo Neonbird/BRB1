@@ -1,0 +1,38 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	1
+# genesets in collections:	22596
+# genes in comparison (n):	22
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr1q24	116	ENSEMBL 97 Genes in Cytogenetic Band chr1q24	6	0.0517	5.05E-11	1.14E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr1q24
+481	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	chr1q24
+2153	F5	coagulation factor V [Source:HGNC Symbol;Acc:HGNC:3542]	chr1q24
+29922	NME7	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	chr1q24
+8548	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	chr1q24
+10560	SLC19A2	solute carrier family 19 member 2 [Source:HGNC Symbol;Acc:HGNC:10938]	chr1q24
+57821	CCDC181	coiled-coil domain containing 181 [Source:HGNC Symbol;Acc:HGNC:28051]	chr1q24
+55651	NHP2	NHP2 ribonucleoprotein [Source:HGNC Symbol;Acc:HGNC:14377]	
+79144	PPDPF	pancreatic progenitor cell differentiation and proliferation factor [Source:HGNC Symbol;Acc:HGNC:16142]	
+80237	ELL3	elongation factor for RNA polymerase II 3 [Source:HGNC Symbol;Acc:HGNC:23113]	
+84984	CEP19	centrosomal protein 19 [Source:HGNC Symbol;Acc:HGNC:28209]	
+80778	ZNF34	zinc finger protein 34 [Source:HGNC Symbol;Acc:HGNC:13098]	
+6602	SMARCD1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1 [Source:HGNC Symbol;Acc:HGNC:11106]	
+28991	COMMD5	COMM domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17902]	
+51808	PHAX	phosphorylated adaptor for RNA export [Source:HGNC Symbol;Acc:HGNC:10241]	
+79025	FNDC11	fibronectin type III domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28764]	
+388335	TMEM220	transmembrane protein 220 [Source:HGNC Symbol;Acc:HGNC:33757]	
+5067	CNTN3	contactin 3 [Source:HGNC Symbol;Acc:HGNC:2173]	
+100288801	FRG2C	FSHD region gene 2 family member C [Source:HGNC Symbol;Acc:HGNC:33626]	
+389320	TEX43	testis expressed 43 [Source:HGNC Symbol;Acc:HGNC:33767]	
+89882	TPD52L3	TPD52 like 3 [Source:HGNC Symbol;Acc:HGNC:23382]	
+81061	OR11H1	olfactory receptor family 11 subfamily H member 1 [Source:HGNC Symbol;Acc:HGNC:15404]	
+642778	NPIPA3	nuclear pore complex interacting protein family member A3 [Source:HGNC Symbol;Acc:HGNC:41978]	

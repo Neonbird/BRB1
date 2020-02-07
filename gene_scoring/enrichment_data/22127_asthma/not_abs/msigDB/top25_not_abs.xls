@@ -1,0 +1,35 @@
+
+Overlap Results
+
+Collection(s):	C1, C2, C3, C4, C5, C6, C7, H
+# overlaps shown:	1
+# genesets in collections:	22596
+# genes in comparison (n):	19
+# genes in universe (N):	38055
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+chr18q11	76	ENSEMBL 97 Genes in Cytogenetic Band chr18q11	9	0.1184	2.81E-20	6.35E-16
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	chr18q11
+4864	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	chr18q11
+2627	GATA6	GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]	chr18q11
+3909	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	chr18q11
+29919	RMC1	regulator of MON1-CCZ1 [Source:HGNC Symbol;Acc:HGNC:24326]	chr18q11
+147463	ANKRD29	ankyrin repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:27110]	chr18q11
+8780	RIOK3	RIO kinase 3 [Source:HGNC Symbol;Acc:HGNC:11451]	chr18q11
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1 [Source:HGNC Symbol;Acc:HGNC:25097]	chr18q11
+64693	CTAGE1	cutaneous T cell lymphoma-associated antigen 1 [Source:HGNC Symbol;Acc:HGNC:24346]	chr18q11
+85019	TMEM241	transmembrane protein 241 [Source:HGNC Symbol;Acc:HGNC:31723]	chr18q11
+23125	CAMTA2	calmodulin binding transcription activator 2 [Source:HGNC Symbol;Acc:HGNC:18807]	
+80298	MTERF2	mitochondrial transcription termination factor 2 [Source:HGNC Symbol;Acc:HGNC:30779]	
+8843	HCAR3	hydroxycarboxylic acid receptor 3 [Source:HGNC Symbol;Acc:HGNC:16824]	
+27111	SDCBP2	syndecan binding protein 2 [Source:HGNC Symbol;Acc:HGNC:15756]	
+8338	HIST2H2AC	histone cluster 2 H2A family member c [Source:HGNC Symbol;Acc:HGNC:4738]	
+114336	CGB2	chorionic gonadotropin subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:16722]	
+84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17840]	
+203562	TMEM31	transmembrane protein 31 [Source:HGNC Symbol;Acc:HGNC:28601]	
+3266	ERAS	ES cell expressed Ras [Source:HGNC Symbol;Acc:HGNC:5174]	
+401665	OR51T1	olfactory receptor family 51 subfamily T member 1 [Source:HGNC Symbol;Acc:HGNC:15205]	
