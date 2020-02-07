@@ -1,17 +1,12 @@
-# Цель проекта:
+# Project goal:
 Сетевой анализ генетических взаимодействий и поиск взаимосвязей между признаками и тканями/клеточными типами с использованием GWAS-данных.
 
-# Задачи:
+# Tasks:
 1. Поиск оптимального подхода для расчета gene score - меры значимости связи гена и признака по summary statistics из GWAS. 
 2. Сетевой анализ генетических взаимосвязей
 3. Анализ взаимосвязей признаков и тканей/клеточных типов
 4. Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
 
-Methods:
-1. Pascal
-2. sklearn
-3. GSEA
-4. safepy
 
 # Поиск оптимального подхода для расчета gene score - меры значимости связи гена и признака по summary statistics из GWAS. 
 ## a brief description of the methods used;
@@ -24,13 +19,13 @@ Methods:
 
 # Network analysis
 ### a brief description of the methods used:
-numpy, sklearn, matplotlib, safepy
+Hierarchical clustering, GSEA, SAFE-graphs visualisation
 ### system requirements for the developed software: 
 python 3.6, 16Gb RAM
 ### instructions for launching the developed software:
 ```
-conda activate env
-jupyter notebook
+pip install matplotlib sklearn numpy pandas scipy networkx tqdm jupyter
+jupyter notebook network_analysis/Network_analysis.ipynb
 ```
 ### examples of results obtained using software 
 you can see in network_analysis/Network_analysis.ipynb
