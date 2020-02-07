@@ -18,11 +18,11 @@
 ## examples of results obtained using software (text, graphs, tables, etc.);
 
 # Network analysis
-### a brief description of the methods used:
+### the methods used:
 Hierarchical clustering, GSEA, SAFE-graphs visualisation
-### system requirements for the developed software: 
+### system requirements: 
 python 3.6, 16Gb RAM
-### instructions for launching the developed software:
+### instructions for launching:
 ```
 pip install matplotlib sklearn numpy pandas scipy networkx tqdm jupyter
 jupyter notebook network_analysis/Network_analysis.ipynb
