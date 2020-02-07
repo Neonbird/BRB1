@@ -37,14 +37,23 @@ python 3.6, 16Gb RAM
 ## examples of results obtained using software (text, graphs, tables, etc.);
 
 # Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
-## a brief description of the methods used;
-## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
-## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
-## examples of results obtained using software (text, graphs, tables, etc.);
+According to the GWAS data, it’s nice to give out information about (this is what we want):
+* what molecular pathways and sets of genes are associated with its trait
+* what previously done GWAS experiments are similar to his experiment
+* which modules of genetic architecture are involved in its trait.
+
+**Languages** : *Java* (+ *Python* - language of tools)
+**Framework**: *Spring* + *Thymeleaf*
+Unfortunately, difficulties arose (for example, the need to refine *LSEA*, difficulties in writing), so for now there is only a semi-working version that should soon work.
+It is not possible to start a server on a laptop (as well as *LSEA* itself), therefore a server is needed (or maybe 16+ RAM).
+*Interface:*
+![](img/screen1.png)
+Analysis:
+![](img/screen2.png)
 
 
 
-# references to the used literature, databases, etc.
+# References to the used literature, databases, etc.
 Данные для работы по проекту BRB1.
 
 
@@ -55,5 +64,4 @@ ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.a
 https://docs.google.com/spreadsheets/d/1kvPoupSzsSFBNSztMzl04xMoSC3Kcx3CrjVf4yBmESU/edit?ts=5b5f17db#gid=227859291
 
 
-Anton:
-Напишу РИДМИ завтра (в четверг-пятница утро)
+
