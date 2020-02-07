@@ -8,14 +8,27 @@
 4. Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
 
 
-# Поиск оптимального подхода для расчета gene score - меры значимости связи гена и признака по summary statistics из GWAS. 
+# Search for the optimal method of quantification of the association of a gene with a phenotype (gene score) using GWAS UK Biobank summary statistics (https://docs.google.com/spreadsheets/d/1kvPoupSzsSFBNSztMzl04xMoSC3Kcx3CrjVf4yBmESU/edit?ts=5b5f17db#gid=227859291). 
 ## a brief description of the methods used;
-В папке Python находятся скрипты для работы с данными Миша делай  с ними что хочешь мб нафег удолить
-Чтобы работать со скриптами, надо на основе аннотации генома человека создать database с помощью create_anot.db.py
++ PASCAL (https://www2.unil.ch/cbg/index.php?title=Pascal)
++ `gene_scoring.py` - a script for testing several methods of gene scoring. It requires an annotation file, which was created as described in "snp_genes_annotation.txt" file.
++ `pascal_init.py` - processes UK Biobank phenotype summary statistics and runs PASCAL-tool on it. + `parallel_gene_scoring.sh` was used to run Pascal in parallel on all phenotypes.
++ GSEA (https://www.gsea-msigdb.org/gsea/msigdb/index.jsp)
++ closest-features utility from BEDOPS toolkit (https://bedops.readthedocs.io/en/latest/content/reference/set-operations/bedops.html)
++ `manhatan_plot_for_genes.R` - code for manhatten plot for genes.
++ `gene_sets.R` - summarised data from enrichment analyzes for all gene scoring methods
 
 ## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
+python 3.6 (modules: gzip, math, os, sys, subprocess), R 3.6.2 (packages used: ggplot2, dplyr, qqman, RColorBrewer), closest-features 2.4.37.
 ## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
++ `gene_scoring.py`: python3 gene_scoring.py <path to the phenotype file> <method>
+Scoring_methods: sum_sqrt, sum_abs, sum_not_abs, min_pvalue, second_min
+requires snp-gene annotation file in the script directory.
++ `pascal_init.py`: There are some problems with specifying the path to the file that need to be fixed. It works only from a folder with Pascal.
++
+
 ## examples of results obtained using software (text, graphs, tables, etc.);
+Results of quantification for two phenotypes can be found in gene_scoring/enrichment_data/.
 
 # Network analysis
 ### a brief description of the methods used:
