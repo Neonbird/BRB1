@@ -103,11 +103,18 @@ This script works exactly the same as the phen_tissues.R, but instead of 0 and 1
 For further analysis of the matrix in Phantasus, it is necessary to rename the names of phenotypes from code to semantic. This script is launched from the development environment R and the code needs to be edited manually and the file name with the matrix, as well as the name of the file with the decoding of the phenotype names, should be entered there.
 
 # Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
-## a brief description of the methods used;
-## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
-## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
-## examples of results obtained using software (text, graphs, tables, etc.);
-
+According to the GWAS data, it’s nice to give out information about (this is what we want):
+* what molecular pathways and sets of genes are associated with its trait
+* what previously done GWAS experiments are similar to his experiment
+* which modules of genetic architecture are involved in its trait.
+**Languages** : *Java* (+ *Python* - language of tools)
+**Framework**: *Spring* + *Thymeleaf*
+Unfortunately, difficulties arose (for example, the need to refine *LSEA*, difficulties in writing), so for now there is only a semi-working version that should soon work.
+It is not possible to start a server on a laptop (as well as *LSEA* itself), therefore a server is needed (or maybe 16+ RAM).
+*Interface:*
+![](img/screen1.png)
+Analysis:
+![](img/screen2.png)
 
 
 # references to the used databases
