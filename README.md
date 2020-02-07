@@ -30,31 +30,56 @@ Methods:
 ### Минимальные требования:
 python 3.6, 16Gb RAM
 
-# Анализ взаимосвязей признаков и тканей/клеточных типов
+# Analysis of the relationship of signs and tissues / cell types
+## a brief description of the methods used
+A script tiss_diff_exp.R was written to determine tissue-specific differential expression of genes important for the development of a phenotype of interest. It takes an input file from the median gene-level TPM by tissue and a folder containing files with genescores, and on the basis of r-package fgsea that implements an algorithm for fast gene set enrichment analysis, calculates statistics for this phenotype and all used tissues. 
+To evaluate the precence of association of the phenotype with tissue based on this statistics and create a matrix, thanks to which it is possible to compare the associations of tissues with several phenotypes, a script 'phen_tissues.R' was written. It takes a directory with stastics files as an input and output is a matrix in which each pair of tissue-phenotype corresponds to either 1 (there is a significant relationship between gene expression in a given tissue and phenotype) or 0 (there is no significant relationship). The resulting matrix was used for further visualization and hierarchical clustering using Phantasus v1.5.1
+There some additional scripts that were used:
++ del_rowscols_withonly_0.R that deletes all rows and columns consisting of only 0
++ phen_tissues_padj_matr.R like the tiss_diff_exp.R, it creates a matrix, but for each pair tissue-phenotype does not match 0 or 1, but the p-value adjasted from the results of the fgsea analysis
++ rename_ph_num_to_descr.R renames the names of phenotypes in the matrix from code to semantic
+
+## system requirements for the  all developed software 
++ required version of the operating system: Linux 18.04
++ interpreter: R version 3.6.2
++ libraries: data.table v1.12.8, dplyr v0.8.3, ggplot2 v3.2.1, tidyr v1.0.0, BiocManager 1.30.1, fgsea 1.12.0
+
+## tiss_diff_exp.R
+### instructions for launching the developed software
+args[*] arguments:
+args[1] - unziped file.gct with TPM by tissue
+args[2] - directory that contain summary genescore files (phen_number.sum.genescores.txt) 
+          for phenotypes of interest (outputs of Pascal)
+
+Output is a directory named 'fgseaRes' that contains files with names 
+phen_number.fgseaRes.csv
+
+Example:
+$ ls sum_genescores/
+n_1.sum.genescores.txt n_2.sum.genescores.txt n_3.sum.genescores.txt
+
+$ R tiss_diff_exp.R TPM_by_tissue.gct sum_genescores/
+fgseaRes/
+
+$ ls fgseaRes/
+n_1.fgseaRes.csv n_2.fgseaRes.csv n_3.fgseaRes.csv
+
+### examples of results obtained using software
+
+
+
+The script produces a table in .csv format, in which tissue is used as columns and phenotypes as rows, and cells are filled with either 0 or 1
+
+
+# Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
 ## a brief description of the methods used;
 ## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
 ## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
 ## examples of results obtained using software (text, graphs, tables, etc.);
 
-# Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
-According to the GWAS data, it’s nice to give out information about (this is what we want):
-* what molecular pathways and sets of genes are associated with its trait
-* what previously done GWAS experiments are similar to his experiment
-* which modules of genetic architecture are involved in its trait.
-
-**Languages** : *Java* (+ *Python* - language of tools)
-**Framework**: *Spring* + *Thymeleaf*
-Unfortunately, difficulties arose (for example, the need to refine *LSEA*, difficulties in writing), so for now there is only a semi-working version that should soon work.
-It is not possible to start a server on a laptop (as well as *LSEA* itself), therefore a server is needed (or maybe 16+ RAM).
-
-*Interface:*
-![](img/screen1.png)
-Analysis:
-![](img/screen2.png)
 
 
-
-# References to the used literature, databases, etc.
+# references to the used literature, databases, etc.
 Данные для работы по проекту BRB1.
 
 
@@ -65,4 +90,5 @@ ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.a
 https://docs.google.com/spreadsheets/d/1kvPoupSzsSFBNSztMzl04xMoSC3Kcx3CrjVf4yBmESU/edit?ts=5b5f17db#gid=227859291
 
 
-
+Anton:
+Напишу РИДМИ завтра (в четверг-пятница утро)
