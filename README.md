@@ -21,9 +21,9 @@ Network analysis of genetic interactions and the search for relationships betwee
 ## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
 python 3.6 (modules: gzip, math, os, sys, subprocess), R 3.6.2 (packages used: ggplot2, dplyr, qqman, RColorBrewer), closest-features 2.4.37.
 ## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
-+ `gene_scoring.py`: python3 gene_scoring.py <path to the phenotype file> <method>
-Scoring_methods: sum_sqrt, sum_abs, sum_not_abs, min_pvalue, second_min
-requires snp-gene annotation file in the script directory.
++ `gene_scoring.py`: python3 gene_scoring.py <path to the phenotype file> <method>.
+Scoring_methods: sum_sqrt, sum_abs, sum_not_abs, min_pvalue, second_min.
+Requires snp-gene annotation file in the script directory.
 + `pascal_init.py`: There are some problems with specifying the path to the file that need to be fixed. It works only from a folder with Pascal.
 
 ## examples of results obtained using software (text, graphs, tables, etc.);
