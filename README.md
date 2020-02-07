@@ -46,6 +46,7 @@ According to the GWAS data, it’s nice to give out information about (this is w
 **Framework**: *Spring* + *Thymeleaf*
 Unfortunately, difficulties arose (for example, the need to refine *LSEA*, difficulties in writing), so for now there is only a semi-working version that should soon work.
 It is not possible to start a server on a laptop (as well as *LSEA* itself), therefore a server is needed (or maybe 16+ RAM).
+
 *Interface:*
 ![](img/screen1.png)
 Analysis:
