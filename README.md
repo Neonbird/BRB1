@@ -1,14 +1,14 @@
 # Project goal:
-Сетевой анализ генетических взаимодействий и поиск взаимосвязей между признаками и тканями/клеточными типами с использованием GWAS-данных.
+Network analysis of genetic interactions and the search for relationships between traits and tissues / cell types using GWAS data.
 
 # Tasks:
-1. Поиск оптимального подхода для расчета gene score - меры значимости связи гена и признака по summary statistics из GWAS. 
-2. Сетевой анализ генетических взаимосвязей
-3. Анализ взаимосвязей признаков и тканей/клеточных типов
-4. Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
+1. Search for the optimal method of quantification of the association of a gene with a phenotype (gene score) using GWAS UK Biobank summary statistics.  
+2. Network analysis
+3. Analysis of the relationship of signs and tissues / cell types
+4. Web interface for functional annotation of GWAS data using other GWAS data.
 
 
-# Search for the optimal method of quantification of the association of a gene with a phenotype (gene score) using GWAS UK Biobank summary statistics (https://docs.google.com/spreadsheets/d/1kvPoupSzsSFBNSztMzl04xMoSC3Kcx3CrjVf4yBmESU/edit?ts=5b5f17db#gid=227859291). 
+# Search for the optimal method of quantification of the association of a gene with a phenotype (gene score) using GWAS UK Biobank summary statistics. 
 ## a brief description of the methods used;
 + PASCAL (https://www2.unil.ch/cbg/index.php?title=Pascal)
 + `gene_scoring.py` - a script for testing several methods of gene scoring. It requires an annotation file, which was created as described in "snp_genes_annotation.txt" file.
@@ -25,17 +25,16 @@ python 3.6 (modules: gzip, math, os, sys, subprocess), R 3.6.2 (packages used: g
 Scoring_methods: sum_sqrt, sum_abs, sum_not_abs, min_pvalue, second_min
 requires snp-gene annotation file in the script directory.
 + `pascal_init.py`: There are some problems with specifying the path to the file that need to be fixed. It works only from a folder with Pascal.
-+
 
 ## examples of results obtained using software (text, graphs, tables, etc.);
 Results of quantification for two phenotypes can be found in gene_scoring/enrichment_data/.
 
 # Network analysis
-### the methods used:
+### a brief description of the methods used:
 Hierarchical clustering, GSEA, SAFE-graphs visualisation
-### system requirements: 
+### system requirements for the developed software: 
 python 3.6, 16Gb RAM
-### instructions for launching:
+### instructions for launching the developed software:
 ```
 pip install matplotlib sklearn numpy pandas scipy networkx tqdm jupyter
 jupyter notebook network_analysis/Network_analysis.ipynb
