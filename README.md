@@ -28,10 +28,10 @@ numpy, sklearn, matplotlib, safepy
 ### system requirements for the developed software: 
 python 3.6, 16Gb RAM
 ### instructions for launching the developed software:
-'''
+```
 conda activate env
 jupyter notebook
-'''
+```
 ### examples of results obtained using software 
 you can see in network_analysis/Network_analysis.ipynb
 
