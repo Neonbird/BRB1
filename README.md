@@ -22,13 +22,19 @@ Methods:
 ## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
 ## examples of results obtained using software (text, graphs, tables, etc.);
 
-# Сетевой анализ генетических взаимосвязей
-## a brief description of the methods used;
-## system requirements for the developed software (memory / CPU requirements, required version of the operating system, interpreter, libraries, etc.);
-## instructions for launching the developed software (for a console application - description of startup keys, examples of commands with selected keys);
-## examples of results obtained using software (text, graphs, tables, etc.);
-### Минимальные требования:
+# Network analysis
+### a brief description of the methods used:
+numpy, sklearn, matplotlib, safepy
+### system requirements for the developed software: 
 python 3.6, 16Gb RAM
+### instructions for launching the developed software:
+'''
+conda activate env
+jupyter notebook
+'''
+### examples of results obtained using software 
+you can see in network_analysis/Network_analysis.ipynb
+
 
 # Analysis of the relationship of signs and tissues / cell types
 ## a brief description of the methods used
@@ -104,8 +110,6 @@ ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.a
 Суммарные статистики по всем фенотипам и справочная информация о них лежит тут:
 https://docs.google.com/spreadsheets/d/1kvPoupSzsSFBNSztMzl04xMoSC3Kcx3CrjVf4yBmESU/edit?ts=5b5f17db#gid=227859291
 
-Median gene-level TPM by tissue.
-https://storage.googleapis.com/gtex_analysis_v8/rna_seq_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz
 
 Anton:
 Напишу РИДМИ завтра (в четверг-пятница утро)
