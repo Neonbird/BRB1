@@ -45,14 +45,14 @@ There some additional scripts that were used:
 + libraries: data.table v1.12.8, dplyr v0.8.3, ggplot2 v3.2.1, tidyr v1.0.0, BiocManager 1.30.1, fgsea 1.12.0
 
 ## tiss_diff_exp.R
-### instructions for launching the developed software
+### instructions for launching
 args[*] arguments:
 args[1] - unziped file.gct with TPM by tissue
 args[2] - directory that contain summary genescore files (phen_number.sum.genescores.txt) 
           for phenotypes of interest (outputs of Pascal)
 
 Output is a directory named 'fgseaRes' that contains files with names 
-phen_number.fgseaRes.csv
+<phen_number>.fgseaRes.csv that contains fgsea statistics
 
 Example:
 $ ls sum_genescores/
@@ -64,12 +64,27 @@ fgseaRes/
 $ ls fgseaRes/
 n_1.fgseaRes.csv n_2.fgseaRes.csv n_3.fgseaRes.csv
 
-### examples of results obtained using software
+## phen_tissues.R
+### instructions for launching
+args[*] arguments:
+args[1] - name of directory that contains files with names <phen_number>.fgseaRes.csv that contains fgsea statistics
 
+Example:
+$ ls fgseaRes/
+n_1.fgseaRes.csv n_2.fgseaRes.csv n_3.fgseaRes.csv
+$ phen_tissues.R fgseaRes/
 
+### examples of results
+The script produces a table in .csv format, in which tissue is used as columns and phenotypes as rows, and cells are filled with either 0 or 1. Output is a matrix in which each pair of tissue-phenotype corresponds to either 1 (there is a significant relationship between gene expression in a given tissue and phenotype) or 0 (there is no significant relationship).
 
-The script produces a table in .csv format, in which tissue is used as columns and phenotypes as rows, and cells are filled with either 0 or 1
+## del_rowscols_withonly_0.R
+this script is run through the R development environment (for example, RStudio), and the name of the file with the matrix is manually entered into its code, from which it is necessary to remove zero columns and rows. Output - a matrix in which there are no zero rows and columns.
 
+## phen_tissues_padj_matr.R
+This script works exactly the same as the phen_tissues.R, but instead of 0 and 1, the matrix is filled with p-values adjasted from the statistics of fgsea analises.
+
+## rename_ph_num_to_descr.R
+For further analysis of the matrix in Phantasus, it is necessary to rename the names of phenotypes from code to semantic. This script is launched from the development environment R and the code needs to be edited manually and the file name with the matrix, as well as the name of the file with the decoding of the phenotype names, should be entered there.
 
 # Веб-интерфейс для функциональной аннотации GWAS-данных с использованием других GWAS-данных.
 ## a brief description of the methods used;
